@@ -1,0 +1,197 @@
+{
+  "file": "03_pulsplan_en.md",
+  "entities": [
+    {
+      "id": "whitcombe",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Daniel Whitcombe",
+        "Daniel",
+        "Dan",
+        "Danny",
+        "Whitcombe",
+        "Whitcomb"
+      ]
+    },
+    {
+      "id": "arsenyev",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "moderator",
+      "surfaces": [
+        "Gleb Arsenyev",
+        "Gleb",
+        "Arsenyev"
+      ]
+    },
+    {
+      "id": "kravets",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "observer",
+      "surfaces": [
+        "Inna Kravets",
+        "Inna"
+      ]
+    },
+    {
+      "id": "marlowe",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "partner",
+      "surfaces": [
+        "Sophie Marlowe",
+        "Sophie",
+        "Soph"
+      ]
+    },
+    {
+      "id": "levchuk",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "friend",
+      "surfaces": [
+        "Konstantin Levchuk",
+        "Konstantin",
+        "Kostya",
+        "Levchuk"
+      ]
+    },
+    {
+      "id": "interview_id",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.11_qW2eVb"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "brightwell",
+      "kind": "ORG",
+      "tier": "quasi",
+      "role": "employer",
+      "surfaces": [
+        "Brightwell Analytics",
+        "Brightwell's",
+        "Brightwell"
+      ]
+    },
+    {
+      "id": "keswick",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "hometown",
+      "surfaces": [
+        "Keswick"
+      ]
+    },
+    {
+      "id": "chistye_prudy",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "district",
+      "surfaces": [
+        "Chistye Prudy"
+      ]
+    },
+    {
+      "id": "sokolniki",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "park",
+      "surfaces": [
+        "Sokolniki"
+      ]
+    },
+    {
+      "id": "pulseplan",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "ПульсПлан",
+        "PulsePlan",
+        "Pulse Plan"
+      ]
+    },
+    {
+      "id": "ritmo",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "competitor",
+      "surfaces": [
+        "Ritmo",
+        "Rhythmo"
+      ]
+    },
+    {
+      "id": "fitbox",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "competitor",
+      "surfaces": [
+        "FitBox",
+        "Fitbox",
+        "Fit Box"
+      ]
+    },
+    {
+      "id": "crossfit",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "brand",
+      "surfaces": [
+        "CrossFit"
+      ]
+    },
+    {
+      "id": "moscow",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "big_city",
+      "surfaces": [
+        "Moscow"
+      ]
+    },
+    {
+      "id": "bristol",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "big_city",
+      "surfaces": [
+        "Bristol"
+      ]
+    },
+    {
+      "id": "russia",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "country",
+      "surfaces": [
+        "Russia"
+      ]
+    },
+    {
+      "id": "england",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "country",
+      "surfaces": [
+        "England"
+      ]
+    },
+    {
+      "id": "lake_district",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "region",
+      "surfaces": [
+        "Lake District"
+      ]
+    }
+  ]
+}

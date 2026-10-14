@@ -1,0 +1,268 @@
+{
+  "file": "06_grocery_pair_anna_pavel.md",
+  "entities": [
+    {
+      "id": "interview_id",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.18_Zc4kYr"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "anna",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Анна Мещерякова",
+        "Анна",
+        "Аня",
+        "Анечка",
+        "Анны"
+      ]
+    },
+    {
+      "id": "pavel",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Павел Мещеряков",
+        "Мещереков Павел",
+        "Павел",
+        "Паша",
+        "Паш",
+        "Павлик",
+        "Пашка",
+        "Пашкой",
+        "Паши",
+        "Мещереков",
+        "Павла"
+      ]
+    },
+    {
+      "id": "meshcheryakovs",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondents_family",
+      "surfaces": [
+        "Мещеряковы",
+        "Мещеряковых"
+      ]
+    },
+    {
+      "id": "vanya",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "child",
+      "surfaces": [
+        "Ваня",
+        "Ванечка",
+        "Ванюша",
+        "Ване",
+        "Вани",
+        "Ваней"
+      ]
+    },
+    {
+      "id": "lyudmila",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "mother_in_law",
+      "surfaces": [
+        "Людмила Сергеевна",
+        "Людмилы Сергеевны"
+      ]
+    },
+    {
+      "id": "rustam",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "courier",
+      "surfaces": [
+        "Рустам"
+      ]
+    },
+    {
+      "id": "polina",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "moderator",
+      "surfaces": [
+        "Полина Жаркова",
+        "Полина"
+      ]
+    },
+    {
+      "id": "artem",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "note_taker",
+      "surfaces": [
+        "Артем Ланской",
+        "Артем",
+        "Артема"
+      ]
+    },
+    {
+      "id": "studio_len",
+      "kind": "ORG",
+      "tier": "quasi",
+      "role": "employer",
+      "surfaces": [
+        "Лен",
+        "Лене"
+      ]
+    },
+    {
+      "id": "oktant",
+      "kind": "ORG",
+      "tier": "quasi",
+      "role": "employer",
+      "surfaces": [
+        "Октант Софт",
+        "Октант Софте",
+        "октант софте"
+      ]
+    },
+    {
+      "id": "kolchugino",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "home_town",
+      "surfaces": [
+        "Кольчугино",
+        "Кольчугине"
+      ]
+    },
+    {
+      "id": "babushkinskaya",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "metro",
+      "surfaces": [
+        "Бабушкинская",
+        "Бабушкинской",
+        "Бабушкинскую"
+      ]
+    },
+    {
+      "id": "vladimir_region",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "region",
+      "surfaces": [
+        "Владимирская область"
+      ]
+    },
+    {
+      "id": "moscow",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "big_city",
+      "surfaces": [
+        "Москва",
+        "Москве"
+      ]
+    },
+    {
+      "id": "lavka",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "Лавка у дома",
+        "Лавке у дома",
+        "Лавки у дома",
+        "Лавку у дома"
+      ]
+    },
+    {
+      "id": "korzinka",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "Корзинка",
+        "Корзинке",
+        "Корзинку",
+        "Корзинки"
+      ]
+    },
+    {
+      "id": "svezhak",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "СвежаК",
+        "СвежаКе",
+        "Свежаке",
+        "СвежаКа"
+      ]
+    },
+    {
+      "id": "shef_klassik",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Шеф Классик",
+        "Шеф Классике",
+        "Шеф Классика",
+        "Шеф Классиком"
+      ]
+    },
+    {
+      "id": "maestro",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Гуру"
+      ]
+    },
+    {
+      "id": "dobrynya",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Добрыня",
+        "Добрыни",
+        "Добрыню",
+        "Добрыней"
+      ]
+    },
+    {
+      "id": "syrny_dvor",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Сырный Двор"
+      ]
+    },
+    {
+      "id": "utro",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Утро в Заречье"
+      ]
+    },
+    {
+      "id": "babushkin_pogreb",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Бабушкин погреб"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "file": "01_pulsplan_oleg.md",
+  "entities": [
+    {
+      "id": "oleg",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Олег Ведерников",
+        "Олег",
+        "Олега"
+      ]
+    },
+    {
+      "id": "tatiana",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent_wife",
+      "surfaces": [
+        "Татьяна Ведерникова",
+        "Татьяна",
+        "Таня",
+        "Танечка",
+        "Тани",
+        "Таню",
+        "Таней"
+      ]
+    },
+    {
+      "id": "miron",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent_son",
+      "surfaces": [
+        "Мирону",
+        "Мирошу"
+      ]
+    },
+    {
+      "id": "ruslan",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "colleague",
+      "surfaces": [
+        "Руслан Габдуллин",
+        "Руслан",
+        "Руслана",
+        "Руслану",
+        "Русланом",
+        "Габдуллин",
+        "Габдуллина",
+        "Габдулин"
+      ]
+    },
+    {
+      "id": "katya",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "colleague",
+      "surfaces": [
+        "Катя"
+      ]
+    },
+    {
+      "id": "lesha",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "cousin",
+      "surfaces": [
+        "Леше"
+      ]
+    },
+    {
+      "id": "veronika",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "moderator",
+      "surfaces": [
+        "Ульяна Стрельцова",
+        "Ульяна",
+        "Стрельцова",
+        "Ника"
+      ]
+    },
+    {
+      "id": "inna",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "client_observer",
+      "surfaces": [
+        "Злата Кравец",
+        "Злата"
+      ]
+    },
+    {
+      "id": "int_id",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.03_xK3pQ9"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "trakt",
+      "kind": "ORG",
+      "tier": "quasi",
+      "role": "employer",
+      "surfaces": [
+        "Тракт-Логистик",
+        "Тракт-Логистике",
+        "Тракт-Логистика",
+        "тракт логистик"
+      ]
+    },
+    {
+      "id": "atlet",
+      "kind": "ORG",
+      "tier": "quasi",
+      "role": "gym",
+      "surfaces": [
+        "Атлет",
+        "Атлете"
+      ]
+    },
+    {
+      "id": "vishnevaya",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "street",
+      "surfaces": [
+        "Вишневой"
+      ]
+    },
+    {
+      "id": "novosavinovsky",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "district",
+      "surfaces": [
+        "Ново-Савиновском"
+      ]
+    },
+    {
+      "id": "kozya_sloboda",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "metro",
+      "surfaces": [
+        "Козьей слободы"
+      ]
+    },
+    {
+      "id": "kineshma",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "hometown",
+      "surfaces": [
+        "Кинешмы",
+        "Кинешме",
+        "Кинешму"
+      ]
+    },
+    {
+      "id": "sportmarafon",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "former_employer_public_chain",
+      "surfaces": [
+        "Спортмарафоне"
+      ]
+    },
+    {
+      "id": "pulsplan",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "ПульсПлан",
+        "ПульсПлану",
+        "ПульсПлане",
+        "ПульсПланом",
+        "ПульсПлана",
+        "Пульсплан",
+        "пульсплан",
+        "Пульс план"
+      ]
+    },
+    {
+      "id": "ritmo",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "competitor",
+      "surfaces": [
+        "Ритмо",
+        "ритмо",
+        "Ритма",
+        "Ритме",
+        "Ритмом",
+        "Рыдмо"
+      ]
+    },
+    {
+      "id": "fitbox",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "competitor",
+      "surfaces": [
+        "FitBox",
+        "Фитбокс",
+        "Фит бокс",
+        "фитбоксе"
+      ]
+    },
+    {
+      "id": "kazan",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "big_city",
+      "surfaces": [
+        "Казани",
+        "Казань"
+      ]
+    },
+    {
+      "id": "ivanovo_region",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "region",
+      "surfaces": [
+        "Ивановская область"
+      ]
+    },
+    {
+      "id": "volga",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "river",
+      "surfaces": [
+        "Волге"
+      ]
+    },
+    {
+      "id": "povolzhye",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "region",
+      "surfaces": [
+        "Поволжью"
+      ]
+    }
+  ]
+}

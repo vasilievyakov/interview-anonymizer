@@ -1,0 +1,6291 @@
+{
+ "note": "Synthetic reference set. All people, companies, numbers are invented. start/end are character offsets into the file text (for xlsx: into the cell value at `where`).",
+ "files": {
+  "ru/interview.md": {
+   "type": "text",
+   "lang": "ru",
+   "words": 2372
+  },
+  "en/interview.md": {
+   "type": "text",
+   "lang": "en",
+   "words": 2581
+  },
+  "ru/staff.xlsx": {
+   "type": "xlsx",
+   "lang": "ru"
+  },
+  "en/staff.xlsx": {
+   "type": "xlsx",
+   "lang": "en"
+  }
+ },
+ "mentions": [
+  {
+   "file": "ru/interview.md",
+   "text": "Гусев Денис Андреевич",
+   "kind": "PERSON",
+   "entity": "gusev",
+   "start": 151,
+   "end": 172
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "ИП Гусев Д.А.",
+   "kind": "ORG",
+   "entity": "ip_gusev",
+   "start": 174,
+   "end": 187
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Денис",
+   "kind": "PERSON",
+   "entity": "gusev",
+   "start": 209,
+   "end": 214
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "ИП Гусев",
+   "kind": "ORG",
+   "entity": "ip_gusev",
+   "start": 419,
+   "end": 427
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Иванова",
+   "kind": "LOCATION",
+   "entity": "ivanovo",
+   "start": 524,
+   "end": 531
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Москве",
+   "kind": "LOCATION",
+   "entity": "moscow",
+   "start": 562,
+   "end": 568
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Подольском",
+   "kind": "LOCATION",
+   "entity": "podolsk",
+   "start": 586,
+   "end": 596
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Санек",
+   "kind": "PERSON",
+   "entity": "belov",
+   "start": 895,
+   "end": 900
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Саня Белов",
+   "kind": "PERSON",
+   "entity": "belov",
+   "start": 905,
+   "end": 915
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Санек",
+   "kind": "PERSON",
+   "entity": "belov",
+   "start": 1269,
+   "end": 1274
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Мария Ковалева",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 1549,
+   "end": 1563
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Марией Ковалевой",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 1634,
+   "end": 1650
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Сергей Петров",
+   "kind": "PERSON",
+   "entity": "petrov",
+   "start": 1781,
+   "end": 1794
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Петрова",
+   "kind": "PERSON",
+   "entity": "petrov",
+   "start": 1798,
+   "end": 1805
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Олег Викторович Морозов",
+   "kind": "PERSON",
+   "entity": "morozov_o",
+   "start": 1872,
+   "end": 1895
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Гуанчжоу",
+   "kind": "LOCATION",
+   "entity": "guangzhou",
+   "start": 1908,
+   "end": 1916
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Олегом Викторовичем",
+   "kind": "PERSON",
+   "entity": "morozov_o",
+   "start": 2174,
+   "end": 2193
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Олегом Викторовичем",
+   "kind": "PERSON",
+   "entity": "morozov_o",
+   "start": 2200,
+   "end": 2219
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Викторович",
+   "kind": "PERSON",
+   "entity": "morozov_o",
+   "start": 2456,
+   "end": 2466
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "+7 (916) 482-35-17",
+   "kind": "PHONE",
+   "entity": "morozov_o_phone",
+   "start": 2614,
+   "end": 2632
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "АО «Восток-Карго Логистик»",
+   "kind": "ORG",
+   "entity": "vostok_cargo",
+   "start": 2927,
+   "end": 2953
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Игорем Морозовым",
+   "kind": "PERSON",
+   "entity": "morozov_i",
+   "start": 3089,
+   "end": 3105
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Морозов",
+   "kind": "PERSON",
+   "entity": "morozov_i",
+   "start": 3158,
+   "end": 3165
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Олег Викторович",
+   "kind": "PERSON",
+   "entity": "morozov_o",
+   "start": 3174,
+   "end": 3189
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Игорь",
+   "kind": "PERSON",
+   "entity": "morozov_i",
+   "start": 3262,
+   "end": 3267
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Забайкальске",
+   "kind": "LOCATION",
+   "entity": "zabaikalsk",
+   "start": 3330,
+   "end": 3342
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "ООО «Байкал-Транзит»",
+   "kind": "ORG",
+   "entity": "baikal",
+   "start": 3521,
+   "end": 3541
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Ирина Сафонова",
+   "kind": "PERSON",
+   "entity": "safonova",
+   "start": 3556,
+   "end": 3570
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Ириной",
+   "kind": "PERSON",
+   "entity": "safonova",
+   "start": 3598,
+   "end": 3604
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "i.safonova@example.com",
+   "kind": "EMAIL",
+   "entity": "safonova_email",
+   "start": 3746,
+   "end": 3768
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "8-903-517-26-44",
+   "kind": "PHONE",
+   "entity": "safonova_phone",
+   "start": 3782,
+   "end": 3797
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Дениса",
+   "kind": "PERSON",
+   "entity": "gusev",
+   "start": 3829,
+   "end": 3835
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "3027635395",
+   "kind": "INN",
+   "entity": "baikal_inn",
+   "start": 3908,
+   "end": 3918
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Маши",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 4071,
+   "end": 4075
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Маша",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 4572,
+   "end": 4576
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "ООО \"СтандартЭксперт\"",
+   "kind": "ORG",
+   "entity": "standart",
+   "start": 4786,
+   "end": 4807
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "45 19 702318",
+   "kind": "PASSPORT",
+   "entity": "gusev_pass",
+   "start": 4951,
+   "end": 4963
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "257-004-205 33",
+   "kind": "SNILS",
+   "entity": "gusev_snils",
+   "start": 4971,
+   "end": 4985
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "658961923146",
+   "kind": "INN",
+   "entity": "gusev_inn",
+   "start": 4991,
+   "end": 5003
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Олег Викторович",
+   "kind": "PERSON",
+   "entity": "morozov_o",
+   "start": 5915,
+   "end": 5930
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Гуанчжоу",
+   "kind": "LOCATION",
+   "entity": "guangzhou",
+   "start": 5967,
+   "end": 5975
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Санек",
+   "kind": "PERSON",
+   "entity": "belov",
+   "start": 6099,
+   "end": 6104
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Москве",
+   "kind": "LOCATION",
+   "entity": "moscow",
+   "start": 6473,
+   "end": 6479
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Маша",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 6549,
+   "end": 6553
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Твери",
+   "kind": "LOCATION",
+   "entity": "tver",
+   "start": 6579,
+   "end": 6584
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Твери",
+   "kind": "LOCATION",
+   "entity": "tver",
+   "start": 6715,
+   "end": 6720
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Маша",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 6722,
+   "end": 6726
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Тверь",
+   "kind": "LOCATION",
+   "entity": "tver",
+   "start": 6756,
+   "end": 6761
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Подольском",
+   "kind": "LOCATION",
+   "entity": "podolsk",
+   "start": 6860,
+   "end": 6870
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Петров",
+   "kind": "PERSON",
+   "entity": "petrov",
+   "start": 6876,
+   "end": 6882
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Петров",
+   "kind": "PERSON",
+   "entity": "petrov",
+   "start": 7059,
+   "end": 7065
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Сергей",
+   "kind": "PERSON",
+   "entity": "petrov",
+   "start": 7129,
+   "end": 7135
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Маша",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 7202,
+   "end": 7206
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "kovaleva.m@example.org",
+   "kind": "EMAIL",
+   "entity": "kovaleva_email",
+   "start": 7246,
+   "end": 7268
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "89265550147",
+   "kind": "PHONE",
+   "entity": "gusev_phone",
+   "start": 7424,
+   "end": 7435
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Аркадий Левин",
+   "kind": "PERSON",
+   "entity": "levin",
+   "start": 7743,
+   "end": 7756
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "ООО «Правовой Щит»",
+   "kind": "ORG",
+   "entity": "pravovoy",
+   "start": 7760,
+   "end": 7778
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Левину",
+   "kind": "PERSON",
+   "entity": "levin",
+   "start": 7844,
+   "end": 7850
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "«Восток-Карго»",
+   "kind": "ORG",
+   "entity": "vostok_cargo",
+   "start": 7949,
+   "end": 7963
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Олег Викторович",
+   "kind": "PERSON",
+   "entity": "morozov_o",
+   "start": 8082,
+   "end": 8097
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Ковалевой",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 8231,
+   "end": 8240
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Ковалева М.А.",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 8306,
+   "end": 8319
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Мария Андреевна",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 8366,
+   "end": 8381
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "4000 1244 6350 3839",
+   "kind": "CARD",
+   "entity": "gusev_card",
+   "start": 8473,
+   "end": 8492
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Олег Викторович",
+   "kind": "PERSON",
+   "entity": "morozov_o",
+   "start": 8501,
+   "end": 8516
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Маша",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 8537,
+   "end": 8541
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Маша",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 8625,
+   "end": 8629
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Сергей",
+   "kind": "PERSON",
+   "entity": "petrov",
+   "start": 8632,
+   "end": 8638
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Маша",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 9123,
+   "end": 9127
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Маша",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 9544,
+   "end": 9548
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Александра Белова",
+   "kind": "PERSON",
+   "entity": "belov",
+   "start": 9653,
+   "end": 9670
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Санька",
+   "kind": "PERSON",
+   "entity": "belov",
+   "start": 9674,
+   "end": 9680
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Сергея",
+   "kind": "PERSON",
+   "entity": "petrov",
+   "start": 10596,
+   "end": 10602
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Санек",
+   "kind": "PERSON",
+   "entity": "belov",
+   "start": 10630,
+   "end": 10635
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Веру Лаптеву",
+   "kind": "PERSON",
+   "entity": "lapteva",
+   "start": 10718,
+   "end": 10730
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Казани",
+   "kind": "LOCATION",
+   "entity": "kazan",
+   "start": 10755,
+   "end": 10761
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Вера",
+   "kind": "PERSON",
+   "entity": "lapteva",
+   "start": 10823,
+   "end": 10827
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Машу",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 10946,
+   "end": 10950
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Маши",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 11252,
+   "end": 11256
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Вера",
+   "kind": "PERSON",
+   "entity": "lapteva",
+   "start": 11304,
+   "end": 11308
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Мария Андреевна",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 11452,
+   "end": 11467
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Маша",
+   "kind": "PERSON",
+   "entity": "kovaleva",
+   "start": 11900,
+   "end": 11904
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Казани",
+   "kind": "LOCATION",
+   "entity": "kazan",
+   "start": 12342,
+   "end": 12348
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Вере",
+   "kind": "PERSON",
+   "entity": "lapteva",
+   "start": 12360,
+   "end": 12364
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Наталья",
+   "kind": "PERSON",
+   "entity": "guseva",
+   "start": 12428,
+   "end": 12435
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Наташа",
+   "kind": "PERSON",
+   "entity": "guseva",
+   "start": 12531,
+   "end": 12537
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Олега Викторовича",
+   "kind": "PERSON",
+   "entity": "morozov_o",
+   "start": 12571,
+   "end": 12588
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Санек",
+   "kind": "PERSON",
+   "entity": "belov",
+   "start": 12631,
+   "end": 12636
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Саньку",
+   "kind": "PERSON",
+   "entity": "belov",
+   "start": 12878,
+   "end": 12884
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Оля Кузнецова",
+   "kind": "PERSON",
+   "entity": "kuznetsova",
+   "start": 12931,
+   "end": 12944
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Казани",
+   "kind": "LOCATION",
+   "entity": "kazan",
+   "start": 12948,
+   "end": 12954
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "ООО «Текстиль-Дом»",
+   "kind": "ORG",
+   "entity": "textile",
+   "start": 12982,
+   "end": 13000
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "+7 917 264 83 05",
+   "kind": "PHONE",
+   "entity": "kuzn_phone",
+   "start": 13087,
+   "end": 13103
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "«Байкал-Транзита»",
+   "kind": "ORG",
+   "entity": "baikal",
+   "start": 13177,
+   "end": 13194
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Денис",
+   "kind": "PERSON",
+   "entity": "gusev",
+   "start": 13859,
+   "end": 13864
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "+7 926 555-01-47",
+   "kind": "PHONE",
+   "entity": "gusev_phone",
+   "start": 13972,
+   "end": 13988
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Петровым",
+   "kind": "PERSON",
+   "entity": "petrov",
+   "start": 14116,
+   "end": 14124
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Ирине Сафоновой",
+   "kind": "PERSON",
+   "entity": "safonova",
+   "start": 14128,
+   "end": 14143
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Tom Hadley",
+   "kind": "PERSON",
+   "entity": "hadley",
+   "start": 138,
+   "end": 148
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Hadley & Finch Home Ltd",
+   "kind": "ORG",
+   "entity": "hadley_ltd",
+   "start": 162,
+   "end": 185
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Tom",
+   "kind": "PERSON",
+   "entity": "hadley",
+   "start": 207,
+   "end": 210
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Hadley & Finch Home Ltd",
+   "kind": "ORG",
+   "entity": "hadley_ltd",
+   "start": 473,
+   "end": 496
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "leeds",
+   "start": 513,
+   "end": 518
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Bradford",
+   "kind": "LOCATION",
+   "entity": "bradford",
+   "start": 546,
+   "end": 554
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Hadley Home Goods LLC",
+   "kind": "ORG",
+   "entity": "hadley_llc",
+   "start": 600,
+   "end": 621
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Austin",
+   "kind": "LOCATION",
+   "entity": "austin",
+   "start": 637,
+   "end": 643
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Robbo",
+   "kind": "PERSON",
+   "entity": "ashdown",
+   "start": 971,
+   "end": 976
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Rob Ashdown",
+   "kind": "PERSON",
+   "entity": "ashdown",
+   "start": 984,
+   "end": 995
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Robbo",
+   "kind": "PERSON",
+   "entity": "ashdown",
+   "start": 1259,
+   "end": 1264
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah Whitcombe",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 1475,
+   "end": 1490
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah's",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 1564,
+   "end": 1571
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Rob",
+   "kind": "PERSON",
+   "entity": "ashdown",
+   "start": 1625,
+   "end": 1628
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Wei Lin",
+   "kind": "PERSON",
+   "entity": "lin",
+   "start": 1705,
+   "end": 1712
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Shenzhen",
+   "kind": "LOCATION",
+   "entity": "shenzhen",
+   "start": 1737,
+   "end": 1745
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Karen Morrison",
+   "kind": "PERSON",
+   "entity": "morrison_k",
+   "start": 1858,
+   "end": 1872
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Wei",
+   "kind": "PERSON",
+   "entity": "lin",
+   "start": 2091,
+   "end": 2094
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Wei",
+   "kind": "PERSON",
+   "entity": "lin",
+   "start": 2142,
+   "end": 2145
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Wei's",
+   "kind": "PERSON",
+   "entity": "lin",
+   "start": 2363,
+   "end": 2368
+  },
+  {
+   "file": "en/interview.md",
+   "text": "07700 900417",
+   "kind": "PHONE",
+   "entity": "lin_phone",
+   "start": 2505,
+   "end": 2517
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Pellow Freight Ltd",
+   "kind": "ORG",
+   "entity": "pellow",
+   "start": 2793,
+   "end": 2811
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Dave Morrison",
+   "kind": "PERSON",
+   "entity": "morrison_d",
+   "start": 2942,
+   "end": 2955
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Karen",
+   "kind": "PERSON",
+   "entity": "morrison_k",
+   "start": 2992,
+   "end": 2997
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Morrison",
+   "kind": "PERSON",
+   "entity": "morrison_d",
+   "start": 3053,
+   "end": 3061
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Dave",
+   "kind": "PERSON",
+   "entity": "morrison_d",
+   "start": 3080,
+   "end": 3084
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Felixstowe",
+   "kind": "LOCATION",
+   "entity": "felixstowe",
+   "start": 3165,
+   "end": 3175
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Northgate Shipping Ltd",
+   "kind": "ORG",
+   "entity": "northgate",
+   "start": 3359,
+   "end": 3381
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Grace Okafor",
+   "kind": "PERSON",
+   "entity": "okafor",
+   "start": 3410,
+   "end": 3422
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Grace",
+   "kind": "PERSON",
+   "entity": "okafor",
+   "start": 3463,
+   "end": 3468
+  },
+  {
+   "file": "en/interview.md",
+   "text": "grace.okafor@example.com",
+   "kind": "EMAIL",
+   "entity": "okafor_email",
+   "start": 3573,
+   "end": 3597
+  },
+  {
+   "file": "en/interview.md",
+   "text": "+44 7700 900982",
+   "kind": "PHONE",
+   "entity": "okafor_phone",
+   "start": 3616,
+   "end": 3631
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Tom",
+   "kind": "PERSON",
+   "entity": "hadley",
+   "start": 3642,
+   "end": 3645
+  },
+  {
+   "file": "en/interview.md",
+   "text": "020 7946 0381",
+   "kind": "PHONE",
+   "entity": "northgate_phone",
+   "start": 3698,
+   "end": 3711
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah's",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 3828,
+   "end": 3835
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 4307,
+   "end": 4312
+  },
+  {
+   "file": "en/interview.md",
+   "text": "767-34-7863",
+   "kind": "SSN",
+   "entity": "hadley_ssn",
+   "start": 4606,
+   "end": 4617
+  },
+  {
+   "file": "en/interview.md",
+   "text": "SH 37 76 29 D",
+   "kind": "NINO",
+   "entity": "hadley_nino",
+   "start": 4664,
+   "end": 4677
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Austin",
+   "kind": "LOCATION",
+   "entity": "austin",
+   "start": 4855,
+   "end": 4861
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Karen",
+   "kind": "PERSON",
+   "entity": "morrison_k",
+   "start": 4867,
+   "end": 4872
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Dallas",
+   "kind": "LOCATION",
+   "entity": "dallas",
+   "start": 4898,
+   "end": 4904
+  },
+  {
+   "file": "en/interview.md",
+   "text": "(214) 555-0143",
+   "kind": "PHONE",
+   "entity": "morrison_k_phone",
+   "start": 4919,
+   "end": 4933
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Wei",
+   "kind": "PERSON",
+   "entity": "lin",
+   "start": 5714,
+   "end": 5717
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Shenzhen",
+   "kind": "LOCATION",
+   "entity": "shenzhen",
+   "start": 5760,
+   "end": 5768
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Guangzhou",
+   "kind": "LOCATION",
+   "entity": "guangzhou",
+   "start": 5773,
+   "end": 5782
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Robbo",
+   "kind": "PERSON",
+   "entity": "ashdown",
+   "start": 5893,
+   "end": 5898
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "leeds",
+   "start": 6231,
+   "end": 6236
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Harrogate",
+   "kind": "LOCATION",
+   "entity": "harrogate",
+   "start": 6322,
+   "end": 6331
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Harrogate",
+   "kind": "LOCATION",
+   "entity": "harrogate",
+   "start": 6407,
+   "end": 6416
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 6425,
+   "end": 6430
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Harrogate",
+   "kind": "LOCATION",
+   "entity": "harrogate",
+   "start": 6460,
+   "end": 6469
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Bradford",
+   "kind": "LOCATION",
+   "entity": "bradford",
+   "start": 6568,
+   "end": 6576
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Rob's",
+   "kind": "PERSON",
+   "entity": "ashdown",
+   "start": 6585,
+   "end": 6590
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Rob",
+   "kind": "PERSON",
+   "entity": "ashdown",
+   "start": 6757,
+   "end": 6760
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 6889,
+   "end": 6894
+  },
+  {
+   "file": "en/interview.md",
+   "text": "s.whitcombe@example.net",
+   "kind": "EMAIL",
+   "entity": "whitcombe_email",
+   "start": 6930,
+   "end": 6953
+  },
+  {
+   "file": "en/interview.md",
+   "text": "07700 900526",
+   "kind": "PHONE",
+   "entity": "hadley_phone",
+   "start": 7092,
+   "end": 7104
+  },
+  {
+   "file": "en/interview.md",
+   "text": "J. T. Fairbairn",
+   "kind": "PERSON",
+   "entity": "fairbairn",
+   "start": 7395,
+   "end": 7410
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Fairbairn & Cole LLP",
+   "kind": "ORG",
+   "entity": "fairbairn_co",
+   "start": 7417,
+   "end": 7437
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Manchester",
+   "kind": "LOCATION",
+   "entity": "manchester",
+   "start": 7441,
+   "end": 7451
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Fairbairn",
+   "kind": "PERSON",
+   "entity": "fairbairn",
+   "start": 7537,
+   "end": 7546
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Pellow",
+   "kind": "ORG",
+   "entity": "pellow",
+   "start": 7614,
+   "end": 7620
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Wei",
+   "kind": "PERSON",
+   "entity": "lin",
+   "start": 7764,
+   "end": 7767
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 7937,
+   "end": 7942
+  },
+  {
+   "file": "en/interview.md",
+   "text": "S. Whitcombe",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 7982,
+   "end": 7994
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Ms Whitcombe",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 8056,
+   "end": 8068
+  },
+  {
+   "file": "en/interview.md",
+   "text": "4000 3480 7697 1170",
+   "kind": "CARD",
+   "entity": "hadley_card",
+   "start": 8152,
+   "end": 8171
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Wei",
+   "kind": "PERSON",
+   "entity": "lin",
+   "start": 8173,
+   "end": 8176
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 8201,
+   "end": 8206
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 8305,
+   "end": 8310
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Rob",
+   "kind": "PERSON",
+   "entity": "ashdown",
+   "start": 8315,
+   "end": 8318
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 8749,
+   "end": 8754
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 9215,
+   "end": 9220
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Rob Ashdown's",
+   "kind": "PERSON",
+   "entity": "ashdown",
+   "start": 9325,
+   "end": 9338
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Rob",
+   "kind": "PERSON",
+   "entity": "ashdown",
+   "start": 10212,
+   "end": 10215
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Hannah Pryor",
+   "kind": "PERSON",
+   "entity": "pryor",
+   "start": 10304,
+   "end": 10316
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Manchester",
+   "kind": "LOCATION",
+   "entity": "manchester",
+   "start": 10355,
+   "end": 10365
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Hannah's",
+   "kind": "PERSON",
+   "entity": "pryor",
+   "start": 10427,
+   "end": 10435
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 10532,
+   "end": 10537
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah's",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 10883,
+   "end": 10890
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Hannah",
+   "kind": "PERSON",
+   "entity": "pryor",
+   "start": 10939,
+   "end": 10945
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 11075,
+   "end": 11080
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Sarah",
+   "kind": "PERSON",
+   "entity": "whitcombe",
+   "start": 11528,
+   "end": 11533
+  },
+  {
+   "file": "en/interview.md",
+   "text": "York",
+   "kind": "LOCATION",
+   "entity": "york",
+   "start": 12000,
+   "end": 12004
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Emma",
+   "kind": "PERSON",
+   "entity": "hadley_e",
+   "start": 12082,
+   "end": 12086
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Em's",
+   "kind": "PERSON",
+   "entity": "hadley_e",
+   "start": 12171,
+   "end": 12175
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Wei",
+   "kind": "PERSON",
+   "entity": "lin",
+   "start": 12214,
+   "end": 12217
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Robbo",
+   "kind": "PERSON",
+   "entity": "ashdown",
+   "start": 12284,
+   "end": 12289
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Robbo",
+   "kind": "PERSON",
+   "entity": "ashdown",
+   "start": 12536,
+   "end": 12541
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Niamh Brennan",
+   "kind": "PERSON",
+   "entity": "brennan",
+   "start": 12595,
+   "end": 12608
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Belfast",
+   "kind": "LOCATION",
+   "entity": "belfast",
+   "start": 12612,
+   "end": 12619
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Brennan Linen Ltd",
+   "kind": "ORG",
+   "entity": "brennan_ltd",
+   "start": 12648,
+   "end": 12665
+  },
+  {
+   "file": "en/interview.md",
+   "text": "+44 28 9649 6012",
+   "kind": "PHONE",
+   "entity": "brennan_phone",
+   "start": 12740,
+   "end": 12756
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Northgate",
+   "kind": "ORG",
+   "entity": "northgate",
+   "start": 12808,
+   "end": 12817
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Tom",
+   "kind": "PERSON",
+   "entity": "hadley",
+   "start": 13442,
+   "end": 13445
+  },
+  {
+   "file": "en/interview.md",
+   "text": "+44 7700 900526",
+   "kind": "PHONE",
+   "entity": "hadley_phone",
+   "start": 13538,
+   "end": 13553
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Rob",
+   "kind": "PERSON",
+   "entity": "ashdown",
+   "start": 13674,
+   "end": 13677
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Grace Okafor",
+   "kind": "PERSON",
+   "entity": "okafor",
+   "start": 13712,
+   "end": 13724
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Ковалева Мария Андреевна",
+   "kind": "PERSON",
+   "entity": "p01",
+   "where": "Сотрудники!A2",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00681",
+   "kind": "ID",
+   "entity": "tab_p01",
+   "where": "Сотрудники!B2",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "602-461-496 61",
+   "kind": "SNILS",
+   "entity": "snils_p01",
+   "where": "Сотрудники!C2",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F2",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Морозов Олег Викторович",
+   "kind": "PERSON",
+   "entity": "p02",
+   "where": "Сотрудники!A3",
+   "start": 0,
+   "end": 23
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00540",
+   "kind": "ID",
+   "entity": "tab_p02",
+   "where": "Сотрудники!B3",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "930-723-001 69",
+   "kind": "SNILS",
+   "entity": "snils_p02",
+   "where": "Сотрудники!C3",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Тверь",
+   "kind": "LOCATION",
+   "entity": "city_Тверь",
+   "where": "Сотрудники!F3",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Морозова Анна Сергеевна",
+   "kind": "PERSON",
+   "entity": "p03",
+   "where": "Сотрудники!A4",
+   "start": 0,
+   "end": 23
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00308",
+   "kind": "ID",
+   "entity": "tab_p03",
+   "where": "Сотрудники!B4",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "559-221-176 96",
+   "kind": "SNILS",
+   "entity": "snils_p03",
+   "where": "Сотрудники!C4",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Иваново",
+   "kind": "LOCATION",
+   "entity": "city_Иваново",
+   "where": "Сотрудники!F4",
+   "start": 0,
+   "end": 7
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Морозова О.В.",
+   "kind": "PERSON",
+   "entity": "p02",
+   "start": 13,
+   "end": 26,
+   "where": "Сотрудники!J4"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Лебедев Дмитрий Николаевич",
+   "kind": "PERSON",
+   "entity": "p04",
+   "where": "Сотрудники!A5",
+   "start": 0,
+   "end": 26
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00839",
+   "kind": "ID",
+   "entity": "tab_p04",
+   "where": "Сотрудники!B5",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "029-316-323 41",
+   "kind": "SNILS",
+   "entity": "snils_p04",
+   "where": "Сотрудники!C5",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Иваново",
+   "kind": "LOCATION",
+   "entity": "city_Иваново",
+   "where": "Сотрудники!F5",
+   "start": 0,
+   "end": 7
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Ковалеву М.А.",
+   "kind": "PERSON",
+   "entity": "p01",
+   "start": 9,
+   "end": 22,
+   "where": "Сотрудники!J5"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Соколова Елена Павловна",
+   "kind": "PERSON",
+   "entity": "p05",
+   "where": "Сотрудники!A6",
+   "start": 0,
+   "end": 23
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00795",
+   "kind": "ID",
+   "entity": "tab_p05",
+   "where": "Сотрудники!B6",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "963-724-499 55",
+   "kind": "SNILS",
+   "entity": "snils_p05",
+   "where": "Сотрудники!C6",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Казань",
+   "kind": "LOCATION",
+   "entity": "city_Казань",
+   "where": "Сотрудники!F6",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Голубева Дарья Олеговна",
+   "kind": "PERSON",
+   "entity": "p06",
+   "where": "Сотрудники!A7",
+   "start": 0,
+   "end": 23
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00804",
+   "kind": "ID",
+   "entity": "tab_p06",
+   "where": "Сотрудники!B7",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "079-871-606 28",
+   "kind": "SNILS",
+   "entity": "snils_p06",
+   "where": "Сотрудники!C7",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Казань",
+   "kind": "LOCATION",
+   "entity": "city_Казань",
+   "where": "Сотрудники!F7",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Олег Морозов",
+   "kind": "PERSON",
+   "entity": "p02",
+   "start": 11,
+   "end": 23,
+   "where": "Сотрудники!J7"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Блинова Анна Михайловна",
+   "kind": "PERSON",
+   "entity": "p07",
+   "where": "Сотрудники!A8",
+   "start": 0,
+   "end": 23
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00398",
+   "kind": "ID",
+   "entity": "tab_p07",
+   "where": "Сотрудники!B8",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "735-255-216 92",
+   "kind": "SNILS",
+   "entity": "snils_p07",
+   "where": "Сотрудники!C8",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Иваново",
+   "kind": "LOCATION",
+   "entity": "city_Иваново",
+   "where": "Сотрудники!F8",
+   "start": 0,
+   "end": 7
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Соколовой",
+   "kind": "PERSON",
+   "entity": "p05",
+   "start": 22,
+   "end": 31,
+   "where": "Сотрудники!J8"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Селезнев Павел Павлович",
+   "kind": "PERSON",
+   "entity": "p08",
+   "where": "Сотрудники!A9",
+   "start": 0,
+   "end": 23
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00304",
+   "kind": "ID",
+   "entity": "tab_p08",
+   "where": "Сотрудники!B9",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "624-934-432 01",
+   "kind": "SNILS",
+   "entity": "snils_p08",
+   "where": "Сотрудники!C9",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F9",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Ершов Егор Юрьевич",
+   "kind": "PERSON",
+   "entity": "p09",
+   "where": "Сотрудники!A10",
+   "start": 0,
+   "end": 18
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00821",
+   "kind": "ID",
+   "entity": "tab_p09",
+   "where": "Сотрудники!B10",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "717-648-783 46",
+   "kind": "SNILS",
+   "entity": "snils_p09",
+   "where": "Сотрудники!C10",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F10",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Рябов Глеб Александрович",
+   "kind": "PERSON",
+   "entity": "p10",
+   "where": "Сотрудники!A11",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00142",
+   "kind": "ID",
+   "entity": "tab_p10",
+   "where": "Сотрудники!B11",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "321-762-695 70",
+   "kind": "SNILS",
+   "entity": "snils_p10",
+   "where": "Сотрудники!C11",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F11",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Панфилов Никита Павлович",
+   "kind": "PERSON",
+   "entity": "p11",
+   "where": "Сотрудники!A12",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00945",
+   "kind": "ID",
+   "entity": "tab_p11",
+   "where": "Сотрудники!B12",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "483-590-391 22",
+   "kind": "SNILS",
+   "entity": "snils_p11",
+   "where": "Сотрудники!C12",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Иваново",
+   "kind": "LOCATION",
+   "entity": "city_Иваново",
+   "where": "Сотрудники!F12",
+   "start": 0,
+   "end": 7
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Мария Андреевна",
+   "kind": "PERSON",
+   "entity": "p01",
+   "start": 19,
+   "end": 34,
+   "where": "Сотрудники!J12"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Прохорова Ольга Игоревна",
+   "kind": "PERSON",
+   "entity": "p12",
+   "where": "Сотрудники!A13",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00706",
+   "kind": "ID",
+   "entity": "tab_p12",
+   "where": "Сотрудники!B13",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "092-115-656 50",
+   "kind": "SNILS",
+   "entity": "snils_p12",
+   "where": "Сотрудники!C13",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Подольск",
+   "kind": "LOCATION",
+   "entity": "city_Подольск",
+   "where": "Сотрудники!F13",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Тихонова Елена Олеговна",
+   "kind": "PERSON",
+   "entity": "p13",
+   "where": "Сотрудники!A14",
+   "start": 0,
+   "end": 23
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00666",
+   "kind": "ID",
+   "entity": "tab_p13",
+   "where": "Сотрудники!B14",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "951-468-176 35",
+   "kind": "SNILS",
+   "entity": "snils_p13",
+   "where": "Сотрудники!C14",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Подольск",
+   "kind": "LOCATION",
+   "entity": "city_Подольск",
+   "where": "Сотрудники!F14",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Котова Екатерина Сергеевна",
+   "kind": "PERSON",
+   "entity": "p14",
+   "where": "Сотрудники!A15",
+   "start": 0,
+   "end": 26
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00188",
+   "kind": "ID",
+   "entity": "tab_p14",
+   "where": "Сотрудники!B15",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "017-562-637 55",
+   "kind": "SNILS",
+   "entity": "snils_p14",
+   "where": "Сотрудники!C15",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F15",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Лебедеву Д.Н.",
+   "kind": "PERSON",
+   "entity": "p04",
+   "start": 22,
+   "end": 35,
+   "where": "Сотрудники!J15"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Кондратьев Глеб Александрович",
+   "kind": "PERSON",
+   "entity": "p15",
+   "where": "Сотрудники!A16",
+   "start": 0,
+   "end": 29
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00252",
+   "kind": "ID",
+   "entity": "tab_p15",
+   "where": "Сотрудники!B16",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "303-184-682 45",
+   "kind": "SNILS",
+   "entity": "snils_p15",
+   "where": "Сотрудники!C16",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Иваново",
+   "kind": "LOCATION",
+   "entity": "city_Иваново",
+   "where": "Сотрудники!F16",
+   "start": 0,
+   "end": 7
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Нестеров Степан Сергеевич",
+   "kind": "PERSON",
+   "entity": "p16",
+   "where": "Сотрудники!A17",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00687",
+   "kind": "ID",
+   "entity": "tab_p16",
+   "where": "Сотрудники!B17",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "906-889-403 60",
+   "kind": "SNILS",
+   "entity": "snils_p16",
+   "where": "Сотрудники!C17",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Подольск",
+   "kind": "LOCATION",
+   "entity": "city_Подольск",
+   "where": "Сотрудники!F17",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Харитонова Анна Николаевна",
+   "kind": "PERSON",
+   "entity": "p17",
+   "where": "Сотрудники!A18",
+   "start": 0,
+   "end": 26
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00211",
+   "kind": "ID",
+   "entity": "tab_p17",
+   "where": "Сотрудники!B18",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "064-684-231 80",
+   "kind": "SNILS",
+   "entity": "snils_p17",
+   "where": "Сотрудники!C18",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Подольск",
+   "kind": "LOCATION",
+   "entity": "city_Подольск",
+   "where": "Сотрудники!F18",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Комарова Наталья Юрьевна",
+   "kind": "PERSON",
+   "entity": "p18",
+   "where": "Сотрудники!A19",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00229",
+   "kind": "ID",
+   "entity": "tab_p18",
+   "where": "Сотрудники!B19",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "339-905-331 02",
+   "kind": "SNILS",
+   "entity": "snils_p18",
+   "where": "Сотрудники!C19",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Подольск",
+   "kind": "LOCATION",
+   "entity": "city_Подольск",
+   "where": "Сотрудники!F19",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Савина Полина Андреевна",
+   "kind": "PERSON",
+   "entity": "p19",
+   "where": "Сотрудники!A20",
+   "start": 0,
+   "end": 23
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00480",
+   "kind": "ID",
+   "entity": "tab_p19",
+   "where": "Сотрудники!B20",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "748-316-452 20",
+   "kind": "SNILS",
+   "entity": "snils_p19",
+   "where": "Сотрудники!C20",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F20",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Павел Селезнев",
+   "kind": "PERSON",
+   "entity": "p08",
+   "start": 9,
+   "end": 23,
+   "where": "Сотрудники!J20"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Гурьев Кирилл Олегович",
+   "kind": "PERSON",
+   "entity": "p20",
+   "where": "Сотрудники!A21",
+   "start": 0,
+   "end": 22
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00219",
+   "kind": "ID",
+   "entity": "tab_p20",
+   "where": "Сотрудники!B21",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "919-714-295 42",
+   "kind": "SNILS",
+   "entity": "snils_p20",
+   "where": "Сотрудники!C21",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Тверь",
+   "kind": "LOCATION",
+   "entity": "city_Тверь",
+   "where": "Сотрудники!F21",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Шилов Алексей Михайлович",
+   "kind": "PERSON",
+   "entity": "p21",
+   "where": "Сотрудники!A22",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00525",
+   "kind": "ID",
+   "entity": "tab_p21",
+   "where": "Сотрудники!B22",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "550-752-981 02",
+   "kind": "SNILS",
+   "entity": "snils_p21",
+   "where": "Сотрудники!C22",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Казань",
+   "kind": "LOCATION",
+   "entity": "city_Казань",
+   "where": "Сотрудники!F22",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Широкова Софья Викторовна",
+   "kind": "PERSON",
+   "entity": "p22",
+   "where": "Сотрудники!A23",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00623",
+   "kind": "ID",
+   "entity": "tab_p22",
+   "where": "Сотрудники!B23",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "608-206-100 48",
+   "kind": "SNILS",
+   "entity": "snils_p22",
+   "where": "Сотрудники!C23",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Казань",
+   "kind": "LOCATION",
+   "entity": "city_Казань",
+   "where": "Сотрудники!F23",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Ковалеву",
+   "kind": "PERSON",
+   "entity": "p01",
+   "start": 35,
+   "end": 43,
+   "where": "Сотрудники!J23"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Миронова Дарья Николаевна",
+   "kind": "PERSON",
+   "entity": "p23",
+   "where": "Сотрудники!A24",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00693",
+   "kind": "ID",
+   "entity": "tab_p23",
+   "where": "Сотрудники!B24",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "841-352-108 72",
+   "kind": "SNILS",
+   "entity": "snils_p23",
+   "where": "Сотрудники!C24",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Иваново",
+   "kind": "LOCATION",
+   "entity": "city_Иваново",
+   "where": "Сотрудники!F24",
+   "start": 0,
+   "end": 7
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Волкова Наталья Юрьевна",
+   "kind": "PERSON",
+   "entity": "p24",
+   "where": "Сотрудники!A25",
+   "start": 0,
+   "end": 23
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00904",
+   "kind": "ID",
+   "entity": "tab_p24",
+   "where": "Сотрудники!B25",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "360-739-650 95",
+   "kind": "SNILS",
+   "entity": "snils_p24",
+   "where": "Сотрудники!C25",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Подольск",
+   "kind": "LOCATION",
+   "entity": "city_Подольск",
+   "where": "Сотрудники!F25",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Исаев Егор Михайлович",
+   "kind": "PERSON",
+   "entity": "p25",
+   "where": "Сотрудники!A26",
+   "start": 0,
+   "end": 21
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00212",
+   "kind": "ID",
+   "entity": "tab_p25",
+   "where": "Сотрудники!B26",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "415-268-146 69",
+   "kind": "SNILS",
+   "entity": "snils_p25",
+   "where": "Сотрудники!C26",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F26",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Морозова",
+   "kind": "PERSON",
+   "entity": "p02",
+   "start": 22,
+   "end": 30,
+   "where": "Сотрудники!J26"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Белов Кирилл Александрович",
+   "kind": "PERSON",
+   "entity": "p26",
+   "where": "Сотрудники!A27",
+   "start": 0,
+   "end": 26
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00511",
+   "kind": "ID",
+   "entity": "tab_p26",
+   "where": "Сотрудники!B27",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "293-405-838 92",
+   "kind": "SNILS",
+   "entity": "snils_p26",
+   "where": "Сотрудники!C27",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F27",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Абрамов Андрей Андреевич",
+   "kind": "PERSON",
+   "entity": "p27",
+   "where": "Сотрудники!A28",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00867",
+   "kind": "ID",
+   "entity": "tab_p27",
+   "where": "Сотрудники!B28",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "403-650-010 19",
+   "kind": "SNILS",
+   "entity": "snils_p27",
+   "where": "Сотрудники!C28",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F28",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Пестова Татьяна Михайловна",
+   "kind": "PERSON",
+   "entity": "p28",
+   "where": "Сотрудники!A29",
+   "start": 0,
+   "end": 26
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00710",
+   "kind": "ID",
+   "entity": "tab_p28",
+   "where": "Сотрудники!B29",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "277-345-796 24",
+   "kind": "SNILS",
+   "entity": "snils_p28",
+   "where": "Сотрудники!C29",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Подольск",
+   "kind": "LOCATION",
+   "entity": "city_Подольск",
+   "where": "Сотрудники!F29",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Евсеева Наталья Павловна",
+   "kind": "PERSON",
+   "entity": "p29",
+   "where": "Сотрудники!A30",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00539",
+   "kind": "ID",
+   "entity": "tab_p29",
+   "where": "Сотрудники!B30",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "409-828-179 13",
+   "kind": "SNILS",
+   "entity": "snils_p29",
+   "where": "Сотрудники!C30",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Тверь",
+   "kind": "LOCATION",
+   "entity": "city_Тверь",
+   "where": "Сотрудники!F30",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Дорофеева Татьяна Павловна",
+   "kind": "PERSON",
+   "entity": "p30",
+   "where": "Сотрудники!A31",
+   "start": 0,
+   "end": 26
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00808",
+   "kind": "ID",
+   "entity": "tab_p30",
+   "where": "Сотрудники!B31",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "460-688-464 18",
+   "kind": "SNILS",
+   "entity": "snils_p30",
+   "where": "Сотрудники!C31",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Тверь",
+   "kind": "LOCATION",
+   "entity": "city_Тверь",
+   "where": "Сотрудники!F31",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Демидов Глеб Сергеевич",
+   "kind": "PERSON",
+   "entity": "p31",
+   "where": "Сотрудники!A32",
+   "start": 0,
+   "end": 22
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00854",
+   "kind": "ID",
+   "entity": "tab_p31",
+   "where": "Сотрудники!B32",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "099-368-756 50",
+   "kind": "SNILS",
+   "entity": "snils_p31",
+   "where": "Сотрудники!C32",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F32",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Еленой Соколовой",
+   "kind": "PERSON",
+   "entity": "p05",
+   "start": 27,
+   "end": 43,
+   "where": "Сотрудники!J32"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Вешнякова Юлия Сергеевна",
+   "kind": "PERSON",
+   "entity": "p32",
+   "where": "Сотрудники!A33",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00456",
+   "kind": "ID",
+   "entity": "tab_p32",
+   "where": "Сотрудники!B33",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "087-476-544 21",
+   "kind": "SNILS",
+   "entity": "snils_p32",
+   "where": "Сотрудники!C33",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Казань",
+   "kind": "LOCATION",
+   "entity": "city_Казань",
+   "where": "Сотрудники!F33",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Осипова Наталья Александровна",
+   "kind": "PERSON",
+   "entity": "p33",
+   "where": "Сотрудники!A34",
+   "start": 0,
+   "end": 29
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00575",
+   "kind": "ID",
+   "entity": "tab_p33",
+   "where": "Сотрудники!B34",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "798-428-791 95",
+   "kind": "SNILS",
+   "entity": "snils_p33",
+   "where": "Сотрудники!C34",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Казань",
+   "kind": "LOCATION",
+   "entity": "city_Казань",
+   "where": "Сотрудники!F34",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Субботина Дарья Юрьевна",
+   "kind": "PERSON",
+   "entity": "p34",
+   "where": "Сотрудники!A35",
+   "start": 0,
+   "end": 23
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00169",
+   "kind": "ID",
+   "entity": "tab_p34",
+   "where": "Сотрудники!B35",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "373-567-799 38",
+   "kind": "SNILS",
+   "entity": "snils_p34",
+   "where": "Сотрудники!C35",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F35",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Устинов Владимир Олегович",
+   "kind": "PERSON",
+   "entity": "p35",
+   "where": "Сотрудники!A36",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00603",
+   "kind": "ID",
+   "entity": "tab_p35",
+   "where": "Сотрудники!B36",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "451-796-481 21",
+   "kind": "SNILS",
+   "entity": "snils_p35",
+   "where": "Сотрудники!C36",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F36",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Зайцева Алина Юрьевна",
+   "kind": "PERSON",
+   "entity": "p36",
+   "where": "Сотрудники!A37",
+   "start": 0,
+   "end": 21
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00450",
+   "kind": "ID",
+   "entity": "tab_p36",
+   "where": "Сотрудники!B37",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "543-143-840 67",
+   "kind": "SNILS",
+   "entity": "snils_p36",
+   "where": "Сотрудники!C37",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F37",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Щербаков Владимир Игоревич",
+   "kind": "PERSON",
+   "entity": "p37",
+   "where": "Сотрудники!A38",
+   "start": 0,
+   "end": 26
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00673",
+   "kind": "ID",
+   "entity": "tab_p37",
+   "where": "Сотрудники!B38",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "177-438-604 05",
+   "kind": "SNILS",
+   "entity": "snils_p37",
+   "where": "Сотрудники!C38",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F38",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Дмитрия Николаевича",
+   "kind": "PERSON",
+   "entity": "p04",
+   "start": 11,
+   "end": 30,
+   "where": "Сотрудники!J38"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Орлов Егор Александрович",
+   "kind": "PERSON",
+   "entity": "p38",
+   "where": "Сотрудники!A39",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00320",
+   "kind": "ID",
+   "entity": "tab_p38",
+   "where": "Сотрудники!B39",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "665-942-110 22",
+   "kind": "SNILS",
+   "entity": "snils_p38",
+   "where": "Сотрудники!C39",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F39",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Калинина Юлия Сергеевна",
+   "kind": "PERSON",
+   "entity": "p39",
+   "where": "Сотрудники!A40",
+   "start": 0,
+   "end": 23
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00754",
+   "kind": "ID",
+   "entity": "tab_p39",
+   "where": "Сотрудники!B40",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "673-617-230 10",
+   "kind": "SNILS",
+   "entity": "snils_p39",
+   "where": "Сотрудники!C40",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Тверь",
+   "kind": "LOCATION",
+   "entity": "city_Тверь",
+   "where": "Сотрудники!F40",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Гаврилов Егор Олегович",
+   "kind": "PERSON",
+   "entity": "p40",
+   "where": "Сотрудники!A41",
+   "start": 0,
+   "end": 22
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "00303",
+   "kind": "ID",
+   "entity": "tab_p40",
+   "where": "Сотрудники!B41",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "174-766-002 90",
+   "kind": "SNILS",
+   "entity": "snils_p40",
+   "where": "Сотрудники!C41",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Москва",
+   "kind": "LOCATION",
+   "entity": "city_Москва",
+   "where": "Сотрудники!F41",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Ковалева М.А.",
+   "kind": "PERSON",
+   "entity": "p01",
+   "start": 0,
+   "end": 13,
+   "where": "Руководители!B2"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Глеб Рябов",
+   "kind": "PERSON",
+   "entity": "p10",
+   "start": 0,
+   "end": 10,
+   "where": "Руководители!C2"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Олег Викторович Морозов",
+   "kind": "PERSON",
+   "entity": "p02",
+   "start": 0,
+   "end": 23,
+   "where": "Руководители!B3"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Морозова А.С.",
+   "kind": "PERSON",
+   "entity": "p03",
+   "start": 0,
+   "end": 13,
+   "where": "Руководители!C3"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Лебедев Д. Н.",
+   "kind": "PERSON",
+   "entity": "p04",
+   "start": 0,
+   "end": 13,
+   "where": "Руководители!B4"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Тихонова Елена",
+   "kind": "PERSON",
+   "entity": "p13",
+   "start": 0,
+   "end": 14,
+   "where": "Руководители!C4"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Е.П. Соколова",
+   "kind": "PERSON",
+   "entity": "p05",
+   "start": 0,
+   "end": 13,
+   "where": "Руководители!B5"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Морозов",
+   "kind": "PERSON",
+   "entity": "p02",
+   "start": 37,
+   "end": 44,
+   "where": "Руководители!D5"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Дмитрий Лебедев",
+   "kind": "PERSON",
+   "entity": "p04",
+   "start": 0,
+   "end": 15,
+   "where": "Руководители!B6"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Sarah Whitcombe",
+   "kind": "PERSON",
+   "entity": "p01",
+   "where": "Staff!A2",
+   "start": 0,
+   "end": 15
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1330",
+   "kind": "ID",
+   "entity": "emp_p01",
+   "where": "Staff!B2",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "sarah.whitcombe@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p01",
+   "where": "Staff!C2",
+   "start": 0,
+   "end": 27
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900723",
+   "kind": "PHONE",
+   "entity": "phone_p01",
+   "where": "Staff!D2",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F2",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Rob Ashdown",
+   "kind": "PERSON",
+   "entity": "p02",
+   "where": "Staff!A3",
+   "start": 0,
+   "end": 11
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1365",
+   "kind": "ID",
+   "entity": "emp_p02",
+   "where": "Staff!B3",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "rob.ashdown@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p02",
+   "where": "Staff!C3",
+   "start": 0,
+   "end": 23
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900343",
+   "kind": "PHONE",
+   "entity": "phone_p02",
+   "where": "Staff!D3",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Manchester",
+   "kind": "LOCATION",
+   "entity": "city_Manchester",
+   "where": "Staff!F3",
+   "start": 0,
+   "end": 10
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Dave Morrison",
+   "kind": "PERSON",
+   "entity": "p03",
+   "where": "Staff!A4",
+   "start": 0,
+   "end": 13
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1500",
+   "kind": "ID",
+   "entity": "emp_p03",
+   "where": "Staff!B4",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "dave.morrison@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p03",
+   "where": "Staff!C4",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900339",
+   "kind": "PHONE",
+   "entity": "phone_p03",
+   "where": "Staff!D4",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F4",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Karen Morrison",
+   "kind": "PERSON",
+   "entity": "p04",
+   "start": 15,
+   "end": 29,
+   "where": "Staff!J4"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Karen Morrison",
+   "kind": "PERSON",
+   "entity": "p04",
+   "where": "Staff!A5",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1160",
+   "kind": "ID",
+   "entity": "emp_p04",
+   "where": "Staff!B5",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "karen.morrison@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p04",
+   "where": "Staff!C5",
+   "start": 0,
+   "end": 26
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "(214) 555-0107",
+   "kind": "PHONE",
+   "entity": "phone_p04",
+   "where": "Staff!D5",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Dallas",
+   "kind": "LOCATION",
+   "entity": "city_Dallas",
+   "where": "Staff!F5",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Grace Okafor",
+   "kind": "PERSON",
+   "entity": "p05",
+   "where": "Staff!A6",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1002",
+   "kind": "ID",
+   "entity": "emp_p05",
+   "where": "Staff!B6",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "grace.okafor@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p05",
+   "where": "Staff!C6",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900689",
+   "kind": "PHONE",
+   "entity": "phone_p05",
+   "where": "Staff!D6",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F6",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Callum Hepworth",
+   "kind": "PERSON",
+   "entity": "p06",
+   "where": "Staff!A7",
+   "start": 0,
+   "end": 15
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1172",
+   "kind": "ID",
+   "entity": "emp_p06",
+   "where": "Staff!B7",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "callum.hepworth@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p06",
+   "where": "Staff!C7",
+   "start": 0,
+   "end": 27
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900990",
+   "kind": "PHONE",
+   "entity": "phone_p06",
+   "where": "Staff!D7",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Manchester",
+   "kind": "LOCATION",
+   "entity": "city_Manchester",
+   "where": "Staff!F7",
+   "start": 0,
+   "end": 10
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Sarah Whitcombe",
+   "kind": "PERSON",
+   "entity": "p01",
+   "start": 13,
+   "end": 28,
+   "where": "Staff!J7"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Bethany Ingram",
+   "kind": "PERSON",
+   "entity": "p07",
+   "where": "Staff!A8",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1992",
+   "kind": "ID",
+   "entity": "emp_p07",
+   "where": "Staff!B8",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "bethany.ingram@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p07",
+   "where": "Staff!C8",
+   "start": 0,
+   "end": 26
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900888",
+   "kind": "PHONE",
+   "entity": "phone_p07",
+   "where": "Staff!D8",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Bradford",
+   "kind": "LOCATION",
+   "entity": "city_Bradford",
+   "where": "Staff!F8",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Rob Ashdown",
+   "kind": "PERSON",
+   "entity": "p02",
+   "start": 11,
+   "end": 22,
+   "where": "Staff!J8"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Megan Marchetti",
+   "kind": "PERSON",
+   "entity": "p08",
+   "where": "Staff!A9",
+   "start": 0,
+   "end": 15
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1814",
+   "kind": "ID",
+   "entity": "emp_p08",
+   "where": "Staff!B9",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "megan.marchetti@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p08",
+   "where": "Staff!C9",
+   "start": 0,
+   "end": 27
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900161",
+   "kind": "PHONE",
+   "entity": "phone_p08",
+   "where": "Staff!D9",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Bradford",
+   "kind": "LOCATION",
+   "entity": "city_Bradford",
+   "where": "Staff!F9",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Megan Spedding",
+   "kind": "PERSON",
+   "entity": "p09",
+   "where": "Staff!A10",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1782",
+   "kind": "ID",
+   "entity": "emp_p09",
+   "where": "Staff!B10",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "megan.spedding@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p09",
+   "where": "Staff!C10",
+   "start": 0,
+   "end": 26
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900428",
+   "kind": "PHONE",
+   "entity": "phone_p09",
+   "where": "Staff!D10",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Manchester",
+   "kind": "LOCATION",
+   "entity": "city_Manchester",
+   "where": "Staff!F10",
+   "start": 0,
+   "end": 10
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Aisha Tennant",
+   "kind": "PERSON",
+   "entity": "p10",
+   "where": "Staff!A11",
+   "start": 0,
+   "end": 13
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1162",
+   "kind": "ID",
+   "entity": "emp_p10",
+   "where": "Staff!B11",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "aisha.tennant@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p10",
+   "where": "Staff!C11",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900870",
+   "kind": "PHONE",
+   "entity": "phone_p10",
+   "where": "Staff!D11",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F11",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Holly Quayle",
+   "kind": "PERSON",
+   "entity": "p11",
+   "where": "Staff!A12",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1126",
+   "kind": "ID",
+   "entity": "emp_p11",
+   "where": "Staff!B12",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "holly.quayle@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p11",
+   "where": "Staff!C12",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900136",
+   "kind": "PHONE",
+   "entity": "phone_p11",
+   "where": "Staff!D12",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Bradford",
+   "kind": "LOCATION",
+   "entity": "city_Bradford",
+   "where": "Staff!F12",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "S. Whitcombe",
+   "kind": "PERSON",
+   "entity": "p01",
+   "start": 20,
+   "end": 32,
+   "where": "Staff!J12"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Freya Haslam",
+   "kind": "PERSON",
+   "entity": "p12",
+   "where": "Staff!A13",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1058",
+   "kind": "ID",
+   "entity": "emp_p12",
+   "where": "Staff!B13",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "freya.haslam@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p12",
+   "where": "Staff!C13",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900731",
+   "kind": "PHONE",
+   "entity": "phone_p12",
+   "where": "Staff!D13",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Bradford",
+   "kind": "LOCATION",
+   "entity": "city_Bradford",
+   "where": "Staff!F13",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Emily Thornbury",
+   "kind": "PERSON",
+   "entity": "p13",
+   "where": "Staff!A14",
+   "start": 0,
+   "end": 15
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1464",
+   "kind": "ID",
+   "entity": "emp_p13",
+   "where": "Staff!B14",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "emily.thornbury@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p13",
+   "where": "Staff!C14",
+   "start": 0,
+   "end": 27
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900108",
+   "kind": "PHONE",
+   "entity": "phone_p13",
+   "where": "Staff!D14",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Harrogate",
+   "kind": "LOCATION",
+   "entity": "city_Harrogate",
+   "where": "Staff!F14",
+   "start": 0,
+   "end": 9
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Rhys Callow",
+   "kind": "PERSON",
+   "entity": "p14",
+   "where": "Staff!A15",
+   "start": 0,
+   "end": 11
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1637",
+   "kind": "ID",
+   "entity": "emp_p14",
+   "where": "Staff!B15",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "rhys.callow@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p14",
+   "where": "Staff!C15",
+   "start": 0,
+   "end": 23
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900896",
+   "kind": "PHONE",
+   "entity": "phone_p14",
+   "where": "Staff!D15",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F15",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Robbo",
+   "kind": "PERSON",
+   "entity": "p02",
+   "start": 22,
+   "end": 27,
+   "where": "Staff!J15"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Declan Gallagher",
+   "kind": "PERSON",
+   "entity": "p15",
+   "where": "Staff!A16",
+   "start": 0,
+   "end": 16
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1403",
+   "kind": "ID",
+   "entity": "emp_p15",
+   "where": "Staff!B16",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "declan.gallagher@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p15",
+   "where": "Staff!C16",
+   "start": 0,
+   "end": 28
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900217",
+   "kind": "PHONE",
+   "entity": "phone_p15",
+   "where": "Staff!D16",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Harrogate",
+   "kind": "LOCATION",
+   "entity": "city_Harrogate",
+   "where": "Staff!F16",
+   "start": 0,
+   "end": 9
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Chloe Nuttall",
+   "kind": "PERSON",
+   "entity": "p16",
+   "where": "Staff!A17",
+   "start": 0,
+   "end": 13
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1253",
+   "kind": "ID",
+   "entity": "emp_p16",
+   "where": "Staff!B17",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "chloe.nuttall@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p16",
+   "where": "Staff!C17",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900148",
+   "kind": "PHONE",
+   "entity": "phone_p16",
+   "where": "Staff!D17",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Manchester",
+   "kind": "LOCATION",
+   "entity": "city_Manchester",
+   "where": "Staff!F17",
+   "start": 0,
+   "end": 10
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Freya Varley",
+   "kind": "PERSON",
+   "entity": "p17",
+   "where": "Staff!A18",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1029",
+   "kind": "ID",
+   "entity": "emp_p17",
+   "where": "Staff!B18",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "freya.varley@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p17",
+   "where": "Staff!C18",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900452",
+   "kind": "PHONE",
+   "entity": "phone_p17",
+   "where": "Staff!D18",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F18",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Lucy Kilbride",
+   "kind": "PERSON",
+   "entity": "p18",
+   "where": "Staff!A19",
+   "start": 0,
+   "end": 13
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1239",
+   "kind": "ID",
+   "entity": "emp_p18",
+   "where": "Staff!B19",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "lucy.kilbride@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p18",
+   "where": "Staff!C19",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900815",
+   "kind": "PHONE",
+   "entity": "phone_p18",
+   "where": "Staff!D19",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F19",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Freya Jessop",
+   "kind": "PERSON",
+   "entity": "p19",
+   "where": "Staff!A20",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1797",
+   "kind": "ID",
+   "entity": "emp_p19",
+   "where": "Staff!B20",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "freya.jessop@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p19",
+   "where": "Staff!C20",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "(214) 555-0119",
+   "kind": "PHONE",
+   "entity": "phone_p19",
+   "where": "Staff!D20",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Dallas",
+   "kind": "LOCATION",
+   "entity": "city_Dallas",
+   "where": "Staff!F20",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Megan Lindqvist",
+   "kind": "PERSON",
+   "entity": "p20",
+   "where": "Staff!A21",
+   "start": 0,
+   "end": 15
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1244",
+   "kind": "ID",
+   "entity": "emp_p20",
+   "where": "Staff!B21",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "megan.lindqvist@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p20",
+   "where": "Staff!C21",
+   "start": 0,
+   "end": 27
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900563",
+   "kind": "PHONE",
+   "entity": "phone_p20",
+   "where": "Staff!D21",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Harrogate",
+   "kind": "LOCATION",
+   "entity": "city_Harrogate",
+   "where": "Staff!F21",
+   "start": 0,
+   "end": 9
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Grace's",
+   "kind": "PERSON",
+   "entity": "p05",
+   "start": 0,
+   "end": 7,
+   "where": "Staff!J21"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Harry Ackroyd",
+   "kind": "PERSON",
+   "entity": "p21",
+   "where": "Staff!A22",
+   "start": 0,
+   "end": 13
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1427",
+   "kind": "ID",
+   "entity": "emp_p21",
+   "where": "Staff!B22",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "harry.ackroyd@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p21",
+   "where": "Staff!C22",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900907",
+   "kind": "PHONE",
+   "entity": "phone_p21",
+   "where": "Staff!D22",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F22",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Owen Dunmore",
+   "kind": "PERSON",
+   "entity": "p22",
+   "where": "Staff!A23",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1813",
+   "kind": "ID",
+   "entity": "emp_p22",
+   "where": "Staff!B23",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "owen.dunmore@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p22",
+   "where": "Staff!C23",
+   "start": 0,
+   "end": 24
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900418",
+   "kind": "PHONE",
+   "entity": "phone_p22",
+   "where": "Staff!D23",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F23",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Megan Birtwistle",
+   "kind": "PERSON",
+   "entity": "p23",
+   "where": "Staff!A24",
+   "start": 0,
+   "end": 16
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1109",
+   "kind": "ID",
+   "entity": "emp_p23",
+   "where": "Staff!B24",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "megan.birtwistle@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p23",
+   "where": "Staff!C24",
+   "start": 0,
+   "end": 28
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "(512) 555-0122",
+   "kind": "PHONE",
+   "entity": "phone_p23",
+   "where": "Staff!D24",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Austin",
+   "kind": "LOCATION",
+   "entity": "city_Austin",
+   "where": "Staff!F24",
+   "start": 0,
+   "end": 6
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Sarah",
+   "kind": "PERSON",
+   "entity": "p01",
+   "start": 30,
+   "end": 35,
+   "where": "Staff!J24"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "George Wainwright",
+   "kind": "PERSON",
+   "entity": "p24",
+   "where": "Staff!A25",
+   "start": 0,
+   "end": 17
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1462",
+   "kind": "ID",
+   "entity": "emp_p24",
+   "where": "Staff!B25",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "george.wainwright@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p24",
+   "where": "Staff!C25",
+   "start": 0,
+   "end": 29
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900455",
+   "kind": "PHONE",
+   "entity": "phone_p24",
+   "where": "Staff!D25",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F25",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Hannah Garside",
+   "kind": "PERSON",
+   "entity": "p25",
+   "where": "Staff!A26",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1185",
+   "kind": "ID",
+   "entity": "emp_p25",
+   "where": "Staff!B26",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "hannah.garside@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p25",
+   "where": "Staff!C26",
+   "start": 0,
+   "end": 26
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900876",
+   "kind": "PHONE",
+   "entity": "phone_p25",
+   "where": "Staff!D26",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F26",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Priya Ormerod",
+   "kind": "PERSON",
+   "entity": "p26",
+   "where": "Staff!A27",
+   "start": 0,
+   "end": 13
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1050",
+   "kind": "ID",
+   "entity": "emp_p26",
+   "where": "Staff!B27",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "priya.ormerod@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p26",
+   "where": "Staff!C27",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900853",
+   "kind": "PHONE",
+   "entity": "phone_p26",
+   "where": "Staff!D27",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Bradford",
+   "kind": "LOCATION",
+   "entity": "city_Bradford",
+   "where": "Staff!F27",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Dave",
+   "kind": "PERSON",
+   "entity": "p03",
+   "start": 10,
+   "end": 14,
+   "where": "Staff!J27"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Lucy Holloway",
+   "kind": "PERSON",
+   "entity": "p27",
+   "where": "Staff!A28",
+   "start": 0,
+   "end": 13
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1880",
+   "kind": "ID",
+   "entity": "emp_p27",
+   "where": "Staff!B28",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "lucy.holloway@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p27",
+   "where": "Staff!C28",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900388",
+   "kind": "PHONE",
+   "entity": "phone_p27",
+   "where": "Staff!D28",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F28",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Harry Kowalczyk",
+   "kind": "PERSON",
+   "entity": "p28",
+   "where": "Staff!A29",
+   "start": 0,
+   "end": 15
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1613",
+   "kind": "ID",
+   "entity": "emp_p28",
+   "where": "Staff!B29",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "harry.kowalczyk@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p28",
+   "where": "Staff!C29",
+   "start": 0,
+   "end": 27
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900818",
+   "kind": "PHONE",
+   "entity": "phone_p28",
+   "where": "Staff!D29",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Harrogate",
+   "kind": "LOCATION",
+   "entity": "city_Harrogate",
+   "where": "Staff!F29",
+   "start": 0,
+   "end": 9
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Emily Dransfield",
+   "kind": "PERSON",
+   "entity": "p29",
+   "where": "Staff!A30",
+   "start": 0,
+   "end": 16
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1277",
+   "kind": "ID",
+   "entity": "emp_p29",
+   "where": "Staff!B30",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "emily.dransfield@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p29",
+   "where": "Staff!C30",
+   "start": 0,
+   "end": 28
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900698",
+   "kind": "PHONE",
+   "entity": "phone_p29",
+   "where": "Staff!D30",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F30",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Aisha Pryce",
+   "kind": "PERSON",
+   "entity": "p30",
+   "where": "Staff!A31",
+   "start": 0,
+   "end": 11
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1731",
+   "kind": "ID",
+   "entity": "emp_p30",
+   "where": "Staff!B31",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "aisha.pryce@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p30",
+   "where": "Staff!C31",
+   "start": 0,
+   "end": 23
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900784",
+   "kind": "PHONE",
+   "entity": "phone_p30",
+   "where": "Staff!D31",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F31",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Oliver Entwistle",
+   "kind": "PERSON",
+   "entity": "p31",
+   "where": "Staff!A32",
+   "start": 0,
+   "end": 16
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1872",
+   "kind": "ID",
+   "entity": "emp_p31",
+   "where": "Staff!B32",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "oliver.entwistle@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p31",
+   "where": "Staff!C32",
+   "start": 0,
+   "end": 28
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900783",
+   "kind": "PHONE",
+   "entity": "phone_p31",
+   "where": "Staff!D32",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Manchester",
+   "kind": "LOCATION",
+   "entity": "city_Manchester",
+   "where": "Staff!F32",
+   "start": 0,
+   "end": 10
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Ellie Brennan",
+   "kind": "PERSON",
+   "entity": "p32",
+   "where": "Staff!A33",
+   "start": 0,
+   "end": 13
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1886",
+   "kind": "ID",
+   "entity": "emp_p32",
+   "where": "Staff!B33",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "ellie.brennan@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p32",
+   "where": "Staff!C33",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900909",
+   "kind": "PHONE",
+   "entity": "phone_p32",
+   "where": "Staff!D33",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Harrogate",
+   "kind": "LOCATION",
+   "entity": "city_Harrogate",
+   "where": "Staff!F33",
+   "start": 0,
+   "end": 9
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Chloe Crowther",
+   "kind": "PERSON",
+   "entity": "p33",
+   "where": "Staff!A34",
+   "start": 0,
+   "end": 14
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1734",
+   "kind": "ID",
+   "entity": "emp_p33",
+   "where": "Staff!B34",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "chloe.crowther@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p33",
+   "where": "Staff!C34",
+   "start": 0,
+   "end": 26
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900197",
+   "kind": "PHONE",
+   "entity": "phone_p33",
+   "where": "Staff!D34",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Manchester",
+   "kind": "LOCATION",
+   "entity": "city_Manchester",
+   "where": "Staff!F34",
+   "start": 0,
+   "end": 10
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Lucy Hartigan",
+   "kind": "PERSON",
+   "entity": "p34",
+   "where": "Staff!A35",
+   "start": 0,
+   "end": 13
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1684",
+   "kind": "ID",
+   "entity": "emp_p34",
+   "where": "Staff!B35",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "lucy.hartigan@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p34",
+   "where": "Staff!C35",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900509",
+   "kind": "PHONE",
+   "entity": "phone_p34",
+   "where": "Staff!D35",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Harrogate",
+   "kind": "LOCATION",
+   "entity": "city_Harrogate",
+   "where": "Staff!F35",
+   "start": 0,
+   "end": 9
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Emily Rawcliffe",
+   "kind": "PERSON",
+   "entity": "p35",
+   "where": "Staff!A36",
+   "start": 0,
+   "end": 15
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1400",
+   "kind": "ID",
+   "entity": "emp_p35",
+   "where": "Staff!B36",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "emily.rawcliffe@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p35",
+   "where": "Staff!C36",
+   "start": 0,
+   "end": 27
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900340",
+   "kind": "PHONE",
+   "entity": "phone_p35",
+   "where": "Staff!D36",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F36",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Declan Yeadon",
+   "kind": "PERSON",
+   "entity": "p36",
+   "where": "Staff!A37",
+   "start": 0,
+   "end": 13
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1652",
+   "kind": "ID",
+   "entity": "emp_p36",
+   "where": "Staff!B37",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "declan.yeadon@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p36",
+   "where": "Staff!C37",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900600",
+   "kind": "PHONE",
+   "entity": "phone_p36",
+   "where": "Staff!D37",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Manchester",
+   "kind": "LOCATION",
+   "entity": "city_Manchester",
+   "where": "Staff!F37",
+   "start": 0,
+   "end": 10
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Ms Morrison",
+   "kind": "PERSON",
+   "entity": "p04",
+   "start": 21,
+   "end": 32,
+   "where": "Staff!J37"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Callum Ellery",
+   "kind": "PERSON",
+   "entity": "p37",
+   "where": "Staff!A38",
+   "start": 0,
+   "end": 13
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1842",
+   "kind": "ID",
+   "entity": "emp_p37",
+   "where": "Staff!B38",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "callum.ellery@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p37",
+   "where": "Staff!C38",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900305",
+   "kind": "PHONE",
+   "entity": "phone_p37",
+   "where": "Staff!D38",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Bradford",
+   "kind": "LOCATION",
+   "entity": "city_Bradford",
+   "where": "Staff!F38",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Priya Sutcliffe",
+   "kind": "PERSON",
+   "entity": "p38",
+   "where": "Staff!A39",
+   "start": 0,
+   "end": 15
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1865",
+   "kind": "ID",
+   "entity": "emp_p38",
+   "where": "Staff!B39",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "priya.sutcliffe@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p38",
+   "where": "Staff!C39",
+   "start": 0,
+   "end": 27
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900134",
+   "kind": "PHONE",
+   "entity": "phone_p38",
+   "where": "Staff!D39",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Manchester",
+   "kind": "LOCATION",
+   "entity": "city_Manchester",
+   "where": "Staff!F39",
+   "start": 0,
+   "end": 10
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Felix Pickering",
+   "kind": "PERSON",
+   "entity": "p39",
+   "where": "Staff!A40",
+   "start": 0,
+   "end": 15
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1041",
+   "kind": "ID",
+   "entity": "emp_p39",
+   "where": "Staff!B40",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "felix.pickering@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p39",
+   "where": "Staff!C40",
+   "start": 0,
+   "end": 27
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900830",
+   "kind": "PHONE",
+   "entity": "phone_p39",
+   "where": "Staff!D40",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F40",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "James Fenwick",
+   "kind": "PERSON",
+   "entity": "p40",
+   "where": "Staff!A41",
+   "start": 0,
+   "end": 13
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "EMP-1100",
+   "kind": "ID",
+   "entity": "emp_p40",
+   "where": "Staff!B41",
+   "start": 0,
+   "end": 8
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "james.fenwick@example.com",
+   "kind": "EMAIL",
+   "entity": "email_p40",
+   "where": "Staff!C41",
+   "start": 0,
+   "end": 25
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "07700 900810",
+   "kind": "PHONE",
+   "entity": "phone_p40",
+   "where": "Staff!D41",
+   "start": 0,
+   "end": 12
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Leeds",
+   "kind": "LOCATION",
+   "entity": "city_Leeds",
+   "where": "Staff!F41",
+   "start": 0,
+   "end": 5
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "S. Whitcombe",
+   "kind": "PERSON",
+   "entity": "p01",
+   "start": 0,
+   "end": 12,
+   "where": "Managers!B2"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "A. Tennant",
+   "kind": "PERSON",
+   "entity": "p10",
+   "start": 0,
+   "end": 10,
+   "where": "Managers!C2"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Ashdown, Rob",
+   "kind": "PERSON",
+   "entity": "p02",
+   "start": 0,
+   "end": 12,
+   "where": "Managers!B3"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Thornbury, Emily",
+   "kind": "PERSON",
+   "entity": "p13",
+   "start": 0,
+   "end": 16,
+   "where": "Managers!C3"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "D. Morrison",
+   "kind": "PERSON",
+   "entity": "p03",
+   "start": 0,
+   "end": 11,
+   "where": "Managers!B4"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "K. Morrison",
+   "kind": "PERSON",
+   "entity": "p04",
+   "start": 23,
+   "end": 34,
+   "where": "Managers!D4"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Karen Morrison",
+   "kind": "PERSON",
+   "entity": "p04",
+   "start": 0,
+   "end": 14,
+   "where": "Managers!B5"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Dallas",
+   "kind": "LOCATION",
+   "entity": "city_Dallas",
+   "start": 9,
+   "end": 15,
+   "where": "Managers!D5"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Grace Okafor",
+   "kind": "PERSON",
+   "entity": "p05",
+   "start": 0,
+   "end": 12,
+   "where": "Managers!B6"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Dave",
+   "kind": "PERSON",
+   "entity": "p03",
+   "start": 17,
+   "end": 21,
+   "where": "Managers!D6"
+  }
+ ],
+ "decoys": [
+  {
+   "file": "ru/interview.md",
+   "text": "12 марта 2026",
+   "kind": "ID",
+   "type": "date",
+   "start": 57,
+   "end": 70
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:00:14",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 196,
+   "end": 204
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Китая",
+   "kind": "LOCATION",
+   "type": "country",
+   "start": 327,
+   "end": 332,
+   "public": true
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Wildberries",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 374,
+   "end": 385,
+   "public": true
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Ozon",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 400,
+   "end": 404,
+   "public": true
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:01:02",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 788,
+   "end": 796
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "2021",
+   "kind": "ID",
+   "type": "year",
+   "start": 867,
+   "end": 871
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "вб",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 936,
+   "end": 938,
+   "public": true
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "200 тысяч",
+   "kind": "ID",
+   "type": "amount",
+   "start": 1051,
+   "end": 1060
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:02:33",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 1454,
+   "end": 1462
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Китае",
+   "kind": "LOCATION",
+   "type": "country",
+   "start": 1855,
+   "end": 1860,
+   "public": true
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:03:40",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 2107,
+   "end": 2115
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "5000 юаней",
+   "kind": "ID",
+   "type": "amount",
+   "start": 2380,
+   "end": 2390
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "5%",
+   "kind": "ID",
+   "type": "percent",
+   "start": 2441,
+   "end": 2443
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:05:12",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 2821,
+   "end": 2829
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "60000",
+   "kind": "ID",
+   "type": "amount",
+   "start": 3007,
+   "end": 3012
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "600 тысяч",
+   "kind": "ID",
+   "type": "amount",
+   "start": 3036,
+   "end": 3045
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "40 процентов",
+   "kind": "ID",
+   "type": "percent",
+   "start": 3392,
+   "end": 3404
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:07:05",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 3456,
+   "end": 3464
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:08:21",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 3981,
+   "end": 3989
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "180 рублей",
+   "kind": "ID",
+   "type": "amount",
+   "start": 4195,
+   "end": 4205
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "990",
+   "kind": "ID",
+   "type": "amount",
+   "start": 4230,
+   "end": 4233
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "25%",
+   "kind": "ID",
+   "type": "percent",
+   "start": 4251,
+   "end": 4254
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "3,2 миллиона",
+   "kind": "ID",
+   "type": "amount",
+   "start": 4404,
+   "end": 4416
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:10:02",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 4620,
+   "end": 4628
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "18 тысяч",
+   "kind": "ID",
+   "type": "amount",
+   "start": 5173,
+   "end": 5181
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:11:40",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 5186,
+   "end": 5194
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "5 марта",
+   "kind": "ID",
+   "type": "date",
+   "start": 5321,
+   "end": 5328
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "15 000",
+   "kind": "ID",
+   "type": "amount",
+   "start": 5349,
+   "end": 5355
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Карл",
+   "kind": "PERSON",
+   "type": "meme",
+   "start": 5426,
+   "end": 5430
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Ozon",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 5606,
+   "end": 5610,
+   "public": true
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:13:15",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 5803,
+   "end": 5811
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Кантонская ярмарка",
+   "kind": "ORG",
+   "type": "event",
+   "start": 5984,
+   "end": 6002,
+   "public": true
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:15:00",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 6392,
+   "end": 6400
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:16:30",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 6906,
+   "end": 6914
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:18:05",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 7478,
+   "end": 7486
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "45 тысяч",
+   "kind": "ID",
+   "type": "amount",
+   "start": 7864,
+   "end": 7872
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:19:44",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 8148,
+   "end": 8156
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:21:10",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 8693,
+   "end": 8701
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:22:30",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 9211,
+   "end": 9219
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:24:15",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 9849,
+   "end": 9857
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "ИМЯ_3",
+   "kind": "PERSON",
+   "type": "label",
+   "start": 10117,
+   "end": 10122
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "200000",
+   "kind": "ID",
+   "type": "amount",
+   "start": 10258,
+   "end": 10264
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "14 февраля",
+   "kind": "ID",
+   "type": "date",
+   "start": 10400,
+   "end": 10410
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:25:40",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 10437,
+   "end": 10445
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:27:10",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 11106,
+   "end": 11114
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:28:35",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 11740,
+   "end": 11748
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "2024",
+   "kind": "ID",
+   "type": "year",
+   "start": 11796,
+   "end": 11800
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "ФНС",
+   "kind": "ORG",
+   "type": "gov",
+   "start": 11828,
+   "end": 11831,
+   "public": true
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "30 тысяч",
+   "kind": "ID",
+   "type": "amount",
+   "start": 11971,
+   "end": 11979
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:30:05",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 12265,
+   "end": 12273
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:31:20",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 12800,
+   "end": 12808
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:33:05",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 13457,
+   "end": 13465
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Ozon",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 13657,
+   "end": 13661,
+   "public": true
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "Wildberries",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 13669,
+   "end": 13680,
+   "public": true
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "5000",
+   "kind": "ID",
+   "type": "amount",
+   "start": 13735,
+   "end": 13739
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "12 тысяч",
+   "kind": "ID",
+   "type": "amount",
+   "start": 13794,
+   "end": 13802
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "00:33:50",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 13837,
+   "end": 13845
+  },
+  {
+   "file": "en/interview.md",
+   "text": "18 March 2026",
+   "kind": "ID",
+   "type": "date",
+   "start": 53,
+   "end": 66
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:00:09",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 194,
+   "end": 202
+  },
+  {
+   "file": "en/interview.md",
+   "text": "China",
+   "kind": "LOCATION",
+   "type": "country",
+   "start": 360,
+   "end": 365,
+   "public": true
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Amazon",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 396,
+   "end": 402,
+   "public": true
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Shopify",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 442,
+   "end": 449,
+   "public": true
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:01:20",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 830,
+   "end": 838
+  },
+  {
+   "file": "en/interview.md",
+   "text": "eBay",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 1036,
+   "end": 1040,
+   "public": true
+  },
+  {
+   "file": "en/interview.md",
+   "text": "£12,000",
+   "kind": "ID",
+   "type": "amount",
+   "start": 1105,
+   "end": 1112
+  },
+  {
+   "file": "en/interview.md",
+   "text": "March 2021",
+   "kind": "ID",
+   "type": "date",
+   "start": 1116,
+   "end": 1126
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:02:41",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 1391,
+   "end": 1399
+  },
+  {
+   "file": "en/interview.md",
+   "text": "China",
+   "kind": "LOCATION",
+   "type": "country",
+   "start": 1686,
+   "end": 1691,
+   "public": true
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:04:02",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 2027,
+   "end": 2035
+  },
+  {
+   "file": "en/interview.md",
+   "text": "$4,500",
+   "kind": "ID",
+   "type": "amount",
+   "start": 2282,
+   "end": 2288
+  },
+  {
+   "file": "en/interview.md",
+   "text": "5 per cent",
+   "kind": "ID",
+   "type": "percent",
+   "start": 2332,
+   "end": 2342
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:05:33",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 2687,
+   "end": 2695
+  },
+  {
+   "file": "en/interview.md",
+   "text": "40k",
+   "kind": "ID",
+   "type": "amount",
+   "start": 2871,
+   "end": 2874
+  },
+  {
+   "file": "en/interview.md",
+   "text": "30%",
+   "kind": "ID",
+   "type": "percent",
+   "start": 3233,
+   "end": 3236
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:07:15",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 3300,
+   "end": 3308
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:08:30",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 3745,
+   "end": 3753
+  },
+  {
+   "file": "en/interview.md",
+   "text": "£3.20",
+   "kind": "ID",
+   "type": "amount",
+   "start": 3959,
+   "end": 3964
+  },
+  {
+   "file": "en/interview.md",
+   "text": "£19.99",
+   "kind": "ID",
+   "type": "amount",
+   "start": 3987,
+   "end": 3993
+  },
+  {
+   "file": "en/interview.md",
+   "text": "15%",
+   "kind": "ID",
+   "type": "percent",
+   "start": 4016,
+   "end": 4019
+  },
+  {
+   "file": "en/interview.md",
+   "text": "£210,000",
+   "kind": "ID",
+   "type": "amount",
+   "start": 4151,
+   "end": 4159
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:10:05",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 4354,
+   "end": 4362
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:11:48",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 4988,
+   "end": 4996
+  },
+  {
+   "file": "en/interview.md",
+   "text": "the 5th of March",
+   "kind": "ID",
+   "type": "date",
+   "start": 5084,
+   "end": 5100
+  },
+  {
+   "file": "en/interview.md",
+   "text": "£600",
+   "kind": "ID",
+   "type": "amount",
+   "start": 5119,
+   "end": 5123
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Shopify",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 5407,
+   "end": 5414,
+   "public": true
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Amazon",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 5495,
+   "end": 5501,
+   "public": true
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:13:20",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 5598,
+   "end": 5606
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Canton Fair",
+   "kind": "ORG",
+   "type": "event",
+   "start": 5788,
+   "end": 5799,
+   "public": true
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:15:02",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 6143,
+   "end": 6151
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:16:28",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 6603,
+   "end": 6611
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:18:10",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 7130,
+   "end": 7138
+  },
+  {
+   "file": "en/interview.md",
+   "text": "£2,800",
+   "kind": "ID",
+   "type": "amount",
+   "start": 7553,
+   "end": 7559
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:19:50",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 7831,
+   "end": 7839
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:21:15",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 8374,
+   "end": 8382
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:22:35",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 8849,
+   "end": 8857
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:24:20",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 9475,
+   "end": 9483
+  },
+  {
+   "file": "en/interview.md",
+   "text": "PERSON_3",
+   "kind": "PERSON",
+   "type": "label",
+   "start": 9739,
+   "end": 9747
+  },
+  {
+   "file": "en/interview.md",
+   "text": "£210,000",
+   "kind": "ID",
+   "type": "amount",
+   "start": 9868,
+   "end": 9876
+  },
+  {
+   "file": "en/interview.md",
+   "text": "14 February",
+   "kind": "ID",
+   "type": "date",
+   "start": 10002,
+   "end": 10013
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:25:35",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 10042,
+   "end": 10050
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:27:05",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 10727,
+   "end": 10735
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:28:30",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 11368,
+   "end": 11376
+  },
+  {
+   "file": "en/interview.md",
+   "text": "2024",
+   "kind": "ID",
+   "type": "year",
+   "start": 11421,
+   "end": 11425
+  },
+  {
+   "file": "en/interview.md",
+   "text": "HMRC",
+   "kind": "ORG",
+   "type": "gov",
+   "start": 11448,
+   "end": 11452,
+   "public": true
+  },
+  {
+   "file": "en/interview.md",
+   "text": "£400",
+   "kind": "ID",
+   "type": "amount",
+   "start": 11632,
+   "end": 11636
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:30:00",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 11902,
+   "end": 11910
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:31:25",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 12473,
+   "end": 12481
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:33:00",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 13050,
+   "end": 13058
+  },
+  {
+   "file": "en/interview.md",
+   "text": "Amazon",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 13255,
+   "end": 13261,
+   "public": true
+  },
+  {
+   "file": "en/interview.md",
+   "text": "$120",
+   "kind": "ID",
+   "type": "amount",
+   "start": 13366,
+   "end": 13370
+  },
+  {
+   "file": "en/interview.md",
+   "text": "00:33:45",
+   "kind": "ID",
+   "type": "timestamp",
+   "start": 13421,
+   "end": 13429
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "01.02.2026",
+   "kind": "ID",
+   "type": "date",
+   "start": 32,
+   "end": 42,
+   "where": "Сотрудники!J8"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "01.06.2026",
+   "kind": "ID",
+   "type": "date",
+   "start": 22,
+   "end": 32,
+   "where": "Сотрудники!J10"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Wildberries",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 14,
+   "end": 25,
+   "where": "Сотрудники!J13",
+   "public": true
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Ozon",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 28,
+   "end": 32,
+   "where": "Сотрудники!J13",
+   "public": true
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "марте 2026",
+   "kind": "ID",
+   "type": "date",
+   "start": 20,
+   "end": 30,
+   "where": "Сотрудники!J18"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "10%",
+   "kind": "ID",
+   "type": "percent",
+   "start": 33,
+   "end": 36,
+   "where": "Сотрудники!J18"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "15.11.2025",
+   "kind": "ID",
+   "type": "date",
+   "start": 9,
+   "end": 19,
+   "where": "Сотрудники!J29"
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Китай",
+   "kind": "LOCATION",
+   "type": "country",
+   "start": 15,
+   "end": 20,
+   "where": "Сотрудники!J35",
+   "public": true
+  },
+  {
+   "file": "ru/staff.xlsx",
+   "text": "Китае",
+   "kind": "LOCATION",
+   "type": "country",
+   "start": 23,
+   "end": 28,
+   "where": "Руководители!D3",
+   "public": true
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "1 June 2026",
+   "kind": "ID",
+   "type": "date",
+   "start": 15,
+   "end": 26,
+   "where": "Staff!J10"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Amazon",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 9,
+   "end": 15,
+   "where": "Staff!J13",
+   "public": true
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "Shopify",
+   "kind": "ORG",
+   "type": "platform",
+   "start": 20,
+   "end": 27,
+   "where": "Staff!J13",
+   "public": true
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "March 2026",
+   "kind": "ID",
+   "type": "date",
+   "start": 16,
+   "end": 26,
+   "where": "Staff!J18"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "8%",
+   "kind": "ID",
+   "type": "percent",
+   "start": 29,
+   "end": 31,
+   "where": "Staff!J18"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "15/11/2025",
+   "kind": "ID",
+   "type": "date",
+   "start": 20,
+   "end": 30,
+   "where": "Staff!J30"
+  },
+  {
+   "file": "en/staff.xlsx",
+   "text": "China",
+   "kind": "LOCATION",
+   "type": "country",
+   "start": 18,
+   "end": 23,
+   "where": "Staff!J34",
+   "public": true
+  }
+ ],
+ "indirect": [
+  {
+   "file": "ru/interview.md",
+   "text": "единственный бухгалтер в нашем филиале в Твери",
+   "start": 6674,
+   "end": 6720
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "девушкой из закупок «Байкал-Транзита», которая в прошлом году выиграла у них внутренний конкурс",
+   "start": 13157,
+   "end": 13252
+  },
+  {
+   "file": "ru/interview.md",
+   "text": "наш кладовщик, который в прошлом году выиграл чемпионат области по армрестлингу",
+   "start": 13301,
+   "end": 13380
+  },
+  {
+   "file": "en/interview.md",
+   "text": "the only bookkeeper at our Harrogate branch",
+   "start": 6380,
+   "end": 6423
+  },
+  {
+   "file": "en/interview.md",
+   "text": "the woman in Northgate's purchasing team who won their supplier-of-the-year thing last year",
+   "start": 12795,
+   "end": 12886
+  },
+  {
+   "file": "en/interview.md",
+   "text": "our forklift driver, the one who ran the London Marathon dressed as a dinosaur",
+   "start": 12918,
+   "end": 12996
+  }
+ ]
+}

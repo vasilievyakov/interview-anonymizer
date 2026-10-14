@@ -1,0 +1,211 @@
+{
+  "file": "02_pulsplan_stt_marina.md",
+  "entities": [
+    {
+      "id": "int07",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.07_Lm8RtZ"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "marina",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Марина Колпакова",
+        "Калпакова Марина",
+        "Марина",
+        "Колпакова",
+        "Калпакова"
+      ]
+    },
+    {
+      "id": "gleb",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "moderator",
+      "surfaces": [
+        "Глеб Арсеньев",
+        "Глеб"
+      ]
+    },
+    {
+      "id": "inna",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "observer",
+      "surfaces": [
+        "Злата Кравец",
+        "Злата"
+      ]
+    },
+    {
+      "id": "alisa",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "daughter",
+      "surfaces": [
+        "Алиса",
+        "Алисе",
+        "Алиска",
+        "алиска",
+        "Алиске",
+        "Алиски",
+        "Алиской"
+      ]
+    },
+    {
+      "id": "denis",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "trainer",
+      "surfaces": [
+        "Денис",
+        "денис",
+        "Дениса",
+        "Денчик",
+        "Дэн"
+      ]
+    },
+    {
+      "id": "zoya",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "neighbor",
+      "surfaces": [
+        "Зоя Петровна",
+        "Зои Петровны",
+        "Зоей Петровной",
+        "Зою Петровну",
+        "зоя петровна"
+      ]
+    },
+    {
+      "id": "anastasia",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "support_agent",
+      "surfaces": [
+        "Анастасия"
+      ]
+    },
+    {
+      "id": "severny_klyuch",
+      "kind": "ORG",
+      "tier": "quasi",
+      "role": "employer",
+      "surfaces": [
+        "Северный Ключ",
+        "Северном Ключе",
+        "Северного Ключа",
+        "северном ключе"
+      ]
+    },
+    {
+      "id": "noginsk",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "home_town",
+      "surfaces": [
+        "Ногинск",
+        "Ногинска",
+        "Ногинске"
+      ]
+    },
+    {
+      "id": "shchelkovskaya",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "metro",
+      "surfaces": [
+        "Щелковской",
+        "Щелковская"
+      ]
+    },
+    {
+      "id": "moscow",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "city",
+      "surfaces": [
+        "Москве",
+        "Москва"
+      ]
+    },
+    {
+      "id": "pulsplan",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "ПульсПлан",
+        "Пульсплан",
+        "Пульсплана",
+        "Пульсплане",
+        "Пульспланом",
+        "пульсплан",
+        "Пульс план",
+        "пульс план"
+      ]
+    },
+    {
+      "id": "ritmo",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "competitor",
+      "surfaces": [
+        "Ритмо",
+        "ритмо",
+        "Рыдмо",
+        "рыдмо",
+        "Ритме"
+      ]
+    },
+    {
+      "id": "fitbox",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "competitor",
+      "surfaces": [
+        "Фитбокс",
+        "Фитбоксе",
+        "Фитбокса",
+        "фитбокс",
+        "Фит бокс",
+        "фит бокс"
+      ]
+    },
+    {
+      "id": "youtube",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "platform",
+      "surfaces": [
+        "Ютубе"
+      ]
+    },
+    {
+      "id": "excel",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Экселе"
+      ]
+    },
+    {
+      "id": "1c",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "1С"
+      ]
+    }
+  ]
+}

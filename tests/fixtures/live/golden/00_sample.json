@@ -1,0 +1,423 @@
+{
+  "file": "00_sample.md",
+  "entities": [
+    {
+      "id": "kravets",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "client_observer",
+      "surfaces": [
+        "Злата Кравец",
+        "Злата"
+      ]
+    },
+    {
+      "id": "oleg",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Олег Ведерников"
+      ]
+    },
+    {
+      "id": "marina",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Марина Колпакова"
+      ]
+    },
+    {
+      "id": "daniel",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Daniel Whitcombe"
+      ]
+    },
+    {
+      "id": "karina",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Есения Лобанова",
+        "Есении"
+      ]
+    },
+    {
+      "id": "arseniy",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Арсений Голованов",
+        "Арсению"
+      ]
+    },
+    {
+      "id": "svetlana",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Светлана Пчелкина"
+      ]
+    },
+    {
+      "id": "timur",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Тимур Хайруллин"
+      ]
+    },
+    {
+      "id": "anna",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Анна Мещерякова",
+        "Анна"
+      ]
+    },
+    {
+      "id": "pavel",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Павел Мещеряков",
+        "Павел",
+        "Мещеряковы"
+      ]
+    },
+    {
+      "id": "elvira",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Эльвира Насибуллина",
+        "Эльвире"
+      ]
+    },
+    {
+      "id": "streltsova",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "moderator",
+      "surfaces": [
+        "Ульяна Стрельцова",
+        "Ульяна"
+      ]
+    },
+    {
+      "id": "arsenyev",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "moderator",
+      "surfaces": [
+        "Глеб Арсеньев",
+        "Глеб"
+      ]
+    },
+    {
+      "id": "zharkova",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "moderator",
+      "surfaces": [
+        "Полина Жаркова"
+      ]
+    },
+    {
+      "id": "lanskoy",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "note_taker",
+      "surfaces": [
+        "Артем Ланской"
+      ]
+    },
+    {
+      "id": "shepeleva",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "recruiter",
+      "surfaces": [
+        "Ирина Шепелева"
+      ]
+    },
+    {
+      "id": "phone_shepeleva",
+      "kind": "PHONE",
+      "tier": "direct",
+      "role": "contact",
+      "surfaces": [
+        "+7 915 482-36-17"
+      ]
+    },
+    {
+      "id": "email_shepeleva",
+      "kind": "EMAIL",
+      "tier": "direct",
+      "role": "contact",
+      "surfaces": [
+        "i.shepeleva@rekrut-pole.example"
+      ]
+    },
+    {
+      "id": "id_03",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.03_xK3pQ9"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "id_07",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.07_Lm8RtZ"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "id_11",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.11_qW2eVb"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "id_12",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.12_Hs5nJd"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "id_15",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.15_pT9wQa"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "id_18",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.18_Zc4kYr"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "id_21",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.21_bN6vGh"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "id_22",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.22_Rf3mXs"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "id_24",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.24_Tq8dLw"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "rekrut_pole",
+      "kind": "ORG",
+      "tier": "quasi",
+      "role": "recruiting_agency",
+      "surfaces": [
+        "Рекрут-Поле"
+      ]
+    },
+    {
+      "id": "yaroslavl",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "respondent_city",
+      "surfaces": [
+        "Ярославль"
+      ]
+    },
+    {
+      "id": "almetyevsk",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "respondent_city",
+      "surfaces": [
+        "Альметьевск"
+      ]
+    },
+    {
+      "id": "pulsplan",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "ПульсПлан"
+      ]
+    },
+    {
+      "id": "ritmo",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "Ритмо",
+        "Ритма",
+        "Рыдмо"
+      ]
+    },
+    {
+      "id": "fitbox",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "FitBox",
+        "Фит бокс"
+      ]
+    },
+    {
+      "id": "lavka",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "Лавка у дома"
+      ]
+    },
+    {
+      "id": "korzinka",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "Корзинка"
+      ]
+    },
+    {
+      "id": "svezhak",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "СвежаК",
+        "Свежак"
+      ]
+    },
+    {
+      "id": "shef_klassik",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Шеф Классик"
+      ]
+    },
+    {
+      "id": "maestro",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Гуру"
+      ]
+    },
+    {
+      "id": "dobrynya",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Добрыня"
+      ]
+    },
+    {
+      "id": "syrny_dvor",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Сырный Двор"
+      ]
+    },
+    {
+      "id": "utro",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Утро в Заречье"
+      ]
+    },
+    {
+      "id": "babushkin",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Бабушкин погреб"
+      ]
+    },
+    {
+      "id": "kazan",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "big_city",
+      "surfaces": [
+        "Казань"
+      ]
+    },
+    {
+      "id": "moscow",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "big_city",
+      "surfaces": [
+        "Москва"
+      ]
+    }
+  ]
+}

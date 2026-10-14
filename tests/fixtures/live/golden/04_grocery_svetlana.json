@@ -1,0 +1,235 @@
+{
+  "file": "04_grocery_svetlana.md",
+  "entities": [
+    {
+      "id": "svetlana",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Светлана Пчелкина",
+        "Светлана Игоревна",
+        "Светлана",
+        "Света",
+        "Пчелкина",
+        "Пчелкиной"
+      ]
+    },
+    {
+      "id": "polina",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "moderator",
+      "surfaces": [
+        "Полина Жаркова",
+        "Полина"
+      ]
+    },
+    {
+      "id": "artem",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "note_taker",
+      "surfaces": [
+        "Артем Ланской",
+        "Артем"
+      ]
+    },
+    {
+      "id": "gennady",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "husband",
+      "surfaces": [
+        "Геннадий",
+        "Гена",
+        "Гене",
+        "Геной",
+        "Гены"
+      ]
+    },
+    {
+      "id": "ksyusha",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "granddaughter",
+      "surfaces": [
+        "Ксюша",
+        "Ксюши",
+        "Ксюше",
+        "Ксюшей",
+        "Ксюшенька",
+        "Ксюшеньки"
+      ]
+    },
+    {
+      "id": "larisa",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "colleague",
+      "surfaces": [
+        "Лариса",
+        "Ларисой"
+      ]
+    },
+    {
+      "id": "farhod",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "courier",
+      "surfaces": [
+        "Фарход"
+      ]
+    },
+    {
+      "id": "interview_id",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.12_Hs5nJd"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "vektor_servis",
+      "kind": "ORG",
+      "tier": "quasi",
+      "role": "employer",
+      "surfaces": [
+        "Вектор-Сервис",
+        "Вектор-Сервисе",
+        "вектор сервис"
+      ]
+    },
+    {
+      "id": "gymnasium_4",
+      "kind": "ORG",
+      "tier": "quasi",
+      "role": "former_employer_school",
+      "surfaces": [
+        "Гимназии № 4"
+      ]
+    },
+    {
+      "id": "torzhok",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "home_town",
+      "surfaces": [
+        "Торжка",
+        "Торжке"
+      ]
+    },
+    {
+      "id": "biryulevo",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "district",
+      "surfaces": [
+        "Бирюлеве"
+      ]
+    },
+    {
+      "id": "moscow",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "big_city",
+      "surfaces": [
+        "Москва",
+        "Москве",
+        "Москву"
+      ]
+    },
+    {
+      "id": "korzinka",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand; former_employer",
+      "surfaces": [
+        "Корзинка",
+        "Корзинке",
+        "Корзинку",
+        "Корзинки"
+      ]
+    },
+    {
+      "id": "lavka",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "Лавка у дома",
+        "Лавке у дома",
+        "Лавку у дома",
+        "Лавки у дома",
+        "Лавка",
+        "Лавке",
+        "Лавку",
+        "Лавки"
+      ]
+    },
+    {
+      "id": "svezhak",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "СвежаК",
+        "СвежаКе",
+        "СвежаКу",
+        "Свежак",
+        "Свежака",
+        "Свежаке"
+      ]
+    },
+    {
+      "id": "shef_klassik",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Шеф Классик",
+        "Шеф Классика"
+      ]
+    },
+    {
+      "id": "maestro",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Гуру"
+      ]
+    },
+    {
+      "id": "dobrynya",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Добрыня",
+        "Добрыню",
+        "Добрыни"
+      ]
+    },
+    {
+      "id": "syrny_dvor",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Сырный Двор"
+      ]
+    },
+    {
+      "id": "utro_v_zarechye",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "product",
+      "surfaces": [
+        "Утро в Заречье"
+      ]
+    }
+  ]
+}

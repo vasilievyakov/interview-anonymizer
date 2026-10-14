@@ -1,0 +1,237 @@
+{
+  "file": "05_grocery_stt_timur.md",
+  "entities": [
+    {
+      "id": "timur",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "respondent",
+      "surfaces": [
+        "Тимур Хайруллин",
+        "Тимур Хайрулин",
+        "Тимур",
+        "тимур"
+      ]
+    },
+    {
+      "id": "polina",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "moderator",
+      "surfaces": [
+        "Полина Жаркова",
+        "Полина"
+      ]
+    },
+    {
+      "id": "safina",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "employer_owner",
+      "surfaces": [
+        "Сафина",
+        "Сафиной",
+        "Гульнара Ринатовна",
+        "Гульнары Ринатовны"
+      ]
+    },
+    {
+      "id": "aidar",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "brother",
+      "surfaces": [
+        "Айдар",
+        "Айдару",
+        "айдару"
+      ]
+    },
+    {
+      "id": "leysan",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "girlfriend",
+      "surfaces": [
+        "Лейсан",
+        "лейсан",
+        "Лейсанка",
+        "Лейсанке"
+      ]
+    },
+    {
+      "id": "ildar",
+      "kind": "PERSON",
+      "tier": "direct",
+      "role": "courier",
+      "surfaces": [
+        "Ильдар"
+      ]
+    },
+    {
+      "id": "int_id",
+      "kind": "ID",
+      "tier": "public",
+      "role": "interview_id",
+      "surfaces": [
+        "Инт.15_pT9wQa"
+      ],
+      "note": "policy: interview ids stay in the text"
+    },
+    {
+      "id": "kamsky_hleb",
+      "kind": "ORG",
+      "tier": "quasi",
+      "role": "former_employer",
+      "surfaces": [
+        "Камском Хлебе",
+        "камский хлеб",
+        "Камский Хлеб"
+      ]
+    },
+    {
+      "id": "zelenodolsk",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "home_town",
+      "surfaces": [
+        "Зеленодольска",
+        "Зеленодольске",
+        "Зеленодольском"
+      ]
+    },
+    {
+      "id": "tukaya",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "metro",
+      "surfaces": [
+        "Площадь Тукая"
+      ]
+    },
+    {
+      "id": "azino",
+      "kind": "LOCATION",
+      "tier": "quasi",
+      "role": "district",
+      "surfaces": [
+        "Азино"
+      ]
+    },
+    {
+      "id": "kazan",
+      "kind": "LOCATION",
+      "tier": "public",
+      "role": "big_city",
+      "surfaces": [
+        "Казань",
+        "Казанью",
+        "Казани"
+      ]
+    },
+    {
+      "id": "svezhak",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "Свежак",
+        "свежак",
+        "Свежаке",
+        "свежаке"
+      ]
+    },
+    {
+      "id": "korzinka",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "корзинка",
+        "Корзинки",
+        "Корзинку",
+        "Корзинке",
+        "корзинке"
+      ]
+    },
+    {
+      "id": "lavka",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_brand",
+      "surfaces": [
+        "Лавка у дома",
+        "лавка у дома",
+        "Лавку у дома",
+        "лавке у дома"
+      ]
+    },
+    {
+      "id": "shef_klassik",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_product",
+      "surfaces": [
+        "Шеф Классик",
+        "шеф классик",
+        "Шеф Классика"
+      ]
+    },
+    {
+      "id": "maestro",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_product",
+      "surfaces": [
+        "Гуру",
+        "гуру"
+      ]
+    },
+    {
+      "id": "dobrynya",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_product",
+      "surfaces": [
+        "Добрыня",
+        "Добрыню",
+        "Добрыни"
+      ]
+    },
+    {
+      "id": "syrny_dvor",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_product",
+      "surfaces": [
+        "Сырный Двор"
+      ]
+    },
+    {
+      "id": "utro",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_product",
+      "surfaces": [
+        "Утро в Заречье"
+      ]
+    },
+    {
+      "id": "pogreb",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "researched_product",
+      "surfaces": [
+        "Бабушкин погреб"
+      ]
+    },
+    {
+      "id": "youtube",
+      "kind": "ORG",
+      "tier": "public",
+      "role": "other_brand",
+      "surfaces": [
+        "Ютуб"
+      ]
+    }
+  ]
+}

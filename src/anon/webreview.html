@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>anon review</title>
+<style>
+:root {
+  --bg: #f6f6f3;
+  --panel: #ffffff;
+  --ink: #1c1c1a;
+  --muted: #6b6b66;
+  --line: #e2e2dc;
+  --hide: #b3261e;
+  --hide-bg: #fbe9e7;
+  --keep: #2e6b3a;
+  --keep-bg: #e6f2e8;
+  --mark: #ffe58a;
+  --cur: #3a63c4;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161615;
+    --panel: #1f1f1d;
+    --ink: #ecece6;
+    --muted: #9a9a92;
+    --line: #34342f;
+    --hide: #ff8a80;
+    --hide-bg: #3a1f1d;
+    --keep: #8fd19e;
+    --keep-bg: #1d3322;
+    --mark: #6b5a12;
+    --cur: #7fa2ff;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); }
+body {
+  font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+header {
+  position: sticky; top: 0; z-index: 2;
+  background: var(--bg); border-bottom: 1px solid var(--line);
+  padding: 12px 20px;
+}
+.bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; max-width: 1100px; margin: 0 auto; }
+h1 { font-size: 17px; margin: 0; font-weight: 600; }
+.counters { color: var(--muted); font-variant-numeric: tabular-nums; }
+.counters b { color: var(--ink); font-weight: 600; }
+.spacer { flex: 1; }
+input, select, button { font: inherit; color: inherit; }
+input[type=search], input[type=text], select {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px;
+}
+input[type=search] { min-width: 260px; flex: 1; max-width: 420px; }
+button {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
+  padding: 5px 12px; cursor: pointer;
+}
+button:hover { border-color: var(--muted); }
+button:disabled { opacity: .5; cursor: default; }
+button.primary { background: var(--ink); color: var(--bg); border-color: var(--ink); font-weight: 600; padding: 6px 18px; }
+.hint { color: var(--muted); font-size: 13px; }
+kbd {
+  font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px;
+}
+main { max-width: 1100px; margin: 0 auto; padding: 8px 20px 80px; }
+.add { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 14px 0 6px; }
+.add input { flex: 1; min-width: 220px; max-width: 420px; }
+h2 { font-size: 14px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 22px 0 6px; font-weight: 600; }
+h2 .n { font-weight: 400; }
+.rows { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.row {
+  display: flex; gap: 16px; align-items: flex-start;
+  padding: 9px 14px; border-top: 1px solid var(--line);
+  border-left: 3px solid transparent;
+}
+.row:first-child { border-top: 0; }
+.row.cur { border-left-color: var(--cur); background: color-mix(in srgb, var(--cur) 7%, var(--panel)); }
+.row .body { flex: 1; min-width: 0; }
+.row .text { font-weight: 600; }
+.row.is-keep .text { color: var(--muted); }
+.row .meta { color: var(--muted); font-size: 13px; margin-left: 8px; }
+.row .tag { font-size: 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 10px; padding: 0 7px; margin-left: 6px; }
+.row .ctx { color: var(--muted); font-size: 13px; margin-top: 2px; overflow-wrap: anywhere; }
+.row .ctx mark { background: var(--mark); color: var(--ink); border-radius: 2px; padding: 0 1px; }
+.actions { display: flex; gap: 8px; align-items: center; flex-shrink: 0; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.seg button { border: 0; border-radius: 0; padding: 4px 10px; background: transparent; color: var(--muted); }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button.on-hide { background: var(--hide-bg); color: var(--hide); font-weight: 600; }
+.seg button.on-keep { background: var(--keep-bg); color: var(--keep); font-weight: 600; }
+.brand { font-size: 13px; padding: 4px 9px; color: var(--muted); }
+details.decided { margin-top: 28px; }
+details.decided > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
+details.decided > summary .n { color: var(--muted); font-weight: 400; }
+.empty { color: var(--muted); padding: 14px 0; }
+.status { color: var(--hide); min-height: 1em; }
+.finished { max-width: 640px; margin: 80px auto; padding: 0 20px; }
+.finished h1 { font-size: 22px; margin-bottom: 10px; }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <h1 id="title"></h1>
+    <span class="counters" id="counters"></span>
+    <span class="spacer"></span>
+    <input type="search" id="filter" autocomplete="off">
+    <button class="primary" id="done"></button>
+  </div>
+  <div class="bar"><span class="hint" id="hint"></span><span class="status" id="status"></span></div>
+</header>
+<main id="main">
+  <form class="add" id="add">
+    <input type="text" id="add-text" autocomplete="off" maxlength="500">
+    <select id="add-kind"></select>
+    <button type="submit" id="add-btn"></button>
+  </form>
+  <div id="active"></div>
+  <details class="decided" id="decided" hidden>
+    <summary id="decided-title"></summary>
+    <div id="decided-list"></div>
+  </details>
+</main>
+<script>
+"use strict";
+(function () {
+  var STR = {
+    ru: {
+      title: "Проверка найденного",
+      hide: "скрыть", keep: "оставить", total: "всего",
+      filter: "Фильтр",
+      done: "Готово",
+      hint: "<kbd>j</kbd> <kbd>k</kbd> вниз и вверх, <kbd>пробел</kbd> скрыть или оставить, <kbd>/</kbd> фильтр",
+      groups: { PERSON: "Люди", ORG: "Организации", LOCATION: "Места", OTHER: "Номера и контакты" },
+      kinds: { PERSON: "Имя", ORG: "Организация", LOCATION: "Место", PHONE: "Телефон", EMAIL: "Почта", ID: "Другой номер" },
+      decided: "Уже решено",
+      brand: "в список брендов",
+      brandTitle: "Добавить в список публичных названий проекта: останется в тексте во всех файлах",
+      addPlaceholder: "Добавить пропущенное: текст как в файле",
+      add: "Добавить",
+      times: ["раз", "раза", "раз"],
+      fromKeep: "список брендов", fromUser: "добавлено вручную", earlier: "решено раньше",
+      noActive: "Все значения уже решены. Их можно поменять ниже.",
+      noMatch: "Ничего не подходит под фильтр.",
+      failed: "Не удалось сохранить: сервер не отвечает. Терминал с anon review еще открыт?",
+      savedTitle: "Сохранено",
+      saved: "Решения записаны в {review}: скрыть {hide}, оставить {keep}, всего {total}. Вкладку можно закрыть, дальше в терминале: anon apply."
+    },
+    en: {
+      title: "Review findings",
+      hide: "hide", keep: "keep", total: "total",
+      filter: "Filter",
+      done: "Done",
+      hint: "<kbd>j</kbd> <kbd>k</kbd> down and up, <kbd>space</kbd> hide or keep, <kbd>/</kbd> filter",
+      groups: { PERSON: "People", ORG: "Organisations", LOCATION: "Places", OTHER: "Numbers and contacts" },
+      kinds: { PERSON: "Person", ORG: "Organisation", LOCATION: "Place", PHONE: "Phone", EMAIL: "Email", ID: "Other number" },
+      decided: "Already decided",
+      brand: "to brand list",
+      brandTitle: "Add to the project's public names: stays in the text in every file",
+      addPlaceholder: "Add a missed value: text as in the file",
+      add: "Add",
+      times: ["time", "times", "times"],
+      fromKeep: "brand list", fromUser: "added by hand", earlier: "decided earlier",
+      noActive: "Every value is already decided. You can change them below.",
+      noMatch: "Nothing matches the filter.",
+      failed: "Could not save: the server does not answer. Is the terminal with anon review still open?",
+      savedTitle: "Saved",
+      saved: "Decisions written to {review}: hide {hide}, keep {keep}, total {total}. You can close this tab, next in the terminal: anon apply."
+    }
+  };
+  var GROUPS = ["PERSON", "ORG", "LOCATION", "OTHER"];
+  var token = new URLSearchParams(location.search).get("t") || "";
+  var S = STR.ru, state = null, rows = {}, cur = null;
+
+  function $(id) { return document.getElementById(id); }
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function group(kind) { return GROUPS.indexOf(kind) >= 0 ? kind : "OTHER"; }
+  function plural(n, forms) {
+    if (forms[0] === "time") return n === 1 ? forms[0] : forms[1];
+    var a = n % 10, b = n % 100;
+    if (a === 1 && b !== 11) return forms[0];
+    if (a >= 2 && a <= 4 && (b < 12 || b > 14)) return forms[1];
+    return forms[2];
+  }
+  function fmt(s, vals) { return s.replace(/\{(\w+)\}/g, function (m, k) { return vals[k]; }); }
+
+  function api(method, path, body) {
+    var opts = { method: method, headers: { "X-Anon-Token": token } };
+    if (body) {
+      opts.headers["Content-Type"] = "application/json";
+      opts.body = JSON.stringify(body);
+    }
+    return fetch(path + "?t=" + encodeURIComponent(token), opts).then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    }).then(function (data) {
+      $("status").textContent = "";
+      return data;
+    }, function (err) {
+      $("status").textContent = S.failed;
+      throw err;
+    });
+  }
+
+  // Context with every form of the value marked; built from text nodes, never innerHTML.
+  function highlight(ctx, needles) {
+    var out = el("div", "ctx"), low = ctx.toLowerCase(), ranges = [];
+    needles = needles.filter(Boolean).map(function (s) { return s.toLowerCase(); })
+      .sort(function (a, b) { return b.length - a.length; });
+    needles.forEach(function (n) {
+      var from = 0, i;
+      while ((i = low.indexOf(n, from)) >= 0) {
+        var end = i + n.length;
+        if (!ranges.some(function (r) { return i < r[1] && end > r[0]; })) ranges.push([i, end]);
+        from = end;
+      }
+    });
+    ranges.sort(function (a, b) { return a[0] - b[0]; });
+    var pos = 0;
+    ranges.forEach(function (r) {
+      if (r[0] > pos) out.appendChild(document.createTextNode(ctx.slice(pos, r[0])));
+      out.appendChild(el("mark", null, ctx.slice(r[0], r[1])));
+      pos = r[1];
+    });
+    if (pos < ctx.length) out.appendChild(document.createTextNode(ctx.slice(pos)));
+    if (ctx) {
+      out.insertBefore(document.createTextNode("..."), out.firstChild);
+      out.appendChild(document.createTextNode("..."));
+    }
+    return out;
+  }
+
+  function buildRow(item) {
+    var row = el("div", "row");
+    row.dataset.id = item.id;
+    var body = el("div", "body"), line = el("div");
+    line.appendChild(el("span", "text", item.text));
+    var meta = [];
+    if (item.count) meta.push(item.count + " " + plural(item.count, S.times));
+    if (item.files.length) meta.push(item.files.join(", "));
+    if (meta.length) line.appendChild(el("span", "meta", meta.join(" · ")));
+    var tag = el("span", "tag");
+    line.appendChild(tag);
+    body.appendChild(line);
+    if (item.context) body.appendChild(highlight(item.context, item.variants.concat([item.text])));
+    row.appendChild(body);
+
+    var actions = el("div", "actions");
+    var brand = null;
+    if (state.brand_kinds.indexOf(item.kind) >= 0) {
+      brand = el("button", "brand", S.brand);
+      brand.type = "button";
+      brand.title = S.brandTitle;
+      brand.addEventListener("click", function (e) { onClick(e, row); toBrand(item.id); });
+      actions.appendChild(brand);
+    }
+    var seg = el("div", "seg"), bHide = el("button", null, S.hide), bKeep = el("button", null, S.keep);
+    seg.setAttribute("role", "group");
+    bHide.type = bKeep.type = "button";
+    bHide.addEventListener("click", function (e) { onClick(e, row); setKeep(item.id, true); });
+    bKeep.addEventListener("click", function (e) { onClick(e, row); setKeep(item.id, false); });
+    seg.appendChild(bHide);
+    seg.appendChild(bKeep);
+    actions.appendChild(seg);
+    row.appendChild(actions);
+
+    row.addEventListener("click", function () { setCur(row); });
+    row._parts = { hide: bHide, keep: bKeep, brand: brand, tag: tag };
+    row._hay = [item.text].concat(item.variants, item.files, [item.context]).join(" ").toLowerCase();
+    rows[item.id] = row;
+    paint(item);
+    return row;
+  }
+
+  // Mouse clicks leave no focus on the button, so space keeps toggling the current row.
+  function onClick(e, row) {
+    setCur(row);
+    if (e.detail > 0) e.currentTarget.blur();
+  }
+
+  function paint(item) {
+    var row = rows[item.id], p = row._parts;
+    row.classList.toggle("is-keep", !item.keep);
+    p.hide.className = item.keep ? "on-hide" : "";
+    p.keep.className = item.keep ? "" : "on-keep";
+    p.hide.setAttribute("aria-pressed", String(item.keep));
+    p.keep.setAttribute("aria-pressed", String(!item.keep));
+    var inKeepList = item.sources.indexOf("keep") >= 0;
+    if (p.brand) p.brand.hidden = inKeepList;
+    var tag = inKeepList ? S.fromKeep : item.sources.indexOf("user") >= 0 ? S.fromUser : item.decided ? S.earlier : "";
+    p.tag.textContent = tag;
+    p.tag.hidden = !tag;
+  }
+
+  function counters() {
+    var hide = 0;
+    state.items.forEach(function (i) { if (i.keep) hide++; });
+    var c = $("counters");
+    c.textContent = "";
+    [[S.hide, hide], [S.keep, state.items.length - hide], [S.total, state.items.length]].forEach(function (p, n) {
+      if (n) c.appendChild(document.createTextNode(" / "));
+      c.appendChild(document.createTextNode(p[0] + " "));
+      c.appendChild(el("b", null, String(p[1])));
+    });
+  }
+
+  function renderInto(box, items) {
+    box.textContent = "";
+    GROUPS.forEach(function (g) {
+      var list = items.filter(function (i) { return group(i.kind) === g; });
+      if (!list.length) return;
+      var h = el("h2", null, S.groups[g] + " ");
+      h.appendChild(el("span", "n", String(list.length)));
+      var wrap = el("div", "rows");
+      list.forEach(function (i) { wrap.appendChild(buildRow(i)); });
+      var sec = el("section");
+      sec.appendChild(h);
+      sec.appendChild(wrap);
+      box.appendChild(sec);
+    });
+  }
+
+  function render() {
+    rows = {};
+    var active = state.items.filter(function (i) { return !i.decided; });
+    var decided = state.items.filter(function (i) { return i.decided; });
+    renderInto($("active"), active);
+    if (!active.length) $("active").appendChild(el("div", "empty", S.noActive));
+    $("decided").hidden = !decided.length;
+    var sum = $("decided-title");
+    sum.textContent = S.decided + " ";
+    sum.appendChild(el("span", "n", String(decided.length)));
+    renderInto($("decided-list"), decided);
+    applyFilter();
+    counters();
+    if (cur != null && rows[cur]) setCur(rows[cur], true);
+  }
+
+  function applyFilter() {
+    var q = $("filter").value.trim().toLowerCase();
+    Object.keys(rows).forEach(function (id) {
+      rows[id].hidden = !!q && rows[id]._hay.indexOf(q) < 0;
+    });
+    document.querySelectorAll("section").forEach(function (sec) {
+      sec.hidden = !sec.querySelector(".row:not([hidden])");
+    });
+    var box = $("active"), note = box.querySelector(".empty.filter");
+    if (note) note.remove();
+    if (q && !box.querySelector(".row:not([hidden])") && box.querySelector(".row")) {
+      box.appendChild(el("div", "empty filter", S.noMatch));
+    }
+  }
+
+  function visibleRows() {
+    return Array.prototype.filter.call(document.querySelectorAll(".row"), function (r) {
+      return r.offsetParent !== null;
+    });
+  }
+
+  function setCur(row, quiet) {
+    var old = cur != null && rows[cur];
+    if (old) old.classList.remove("cur");
+    cur = row ? Number(row.dataset.id) : null;
+    if (!row) return;
+    row.classList.add("cur");
+    if (!quiet) row.scrollIntoView({ block: "nearest" });
+  }
+
+  function move(step) {
+    var list = visibleRows();
+    if (!list.length) return;
+    var i = list.indexOf(cur != null ? rows[cur] : null);
+    i = i < 0 ? (step > 0 ? 0 : list.length - 1) : Math.max(0, Math.min(list.length - 1, i + step));
+    setCur(list[i]);
+  }
+
+  function update(item) {
+    state.items[item.id] = item;
+    paint(item);
+    counters();
+  }
+
+  function setKeep(id, keep) {
+    var item = state.items[id], before = item.keep;
+    if (before === keep) return;
+    item.keep = keep;
+    paint(item);
+    counters();
+    api("POST", "/api/keep", { id: id, keep: keep }).then(function (r) { update(r.item); }, function () {
+      item.keep = before;
+      paint(item);
+      counters();
+    });
+  }
+
+  function toBrand(id) {
+    api("POST", "/api/brand", { id: id }).then(function (r) { update(r.item); }, function () {});
+  }
+
+  function onKey(e) {
+    var tag = (e.target.tagName || "").toLowerCase();
+    var typing = tag === "input" || tag === "select" || tag === "textarea";
+    if (typing) {
+      if (e.key === "Escape") e.target.blur();
+      return;
+    }
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.key === "j" || e.key === "о") { move(1); e.preventDefault(); }
+    else if (e.key === "k" || e.key === "л") { move(-1); e.preventDefault(); }
+    else if (e.key === "/" || e.key === ".") { $("filter").focus(); e.preventDefault(); }
+    else if (e.key === " " && tag !== "button" && tag !== "summary") {
+      e.preventDefault();
+      if (cur == null) { move(1); return; }
+      setKeep(cur, !state.items[cur].keep);
+    }
+  }
+
+  function finish() {
+    $("done").disabled = true;
+    api("POST", "/api/done").then(function (c) {
+      document.removeEventListener("keydown", onKey);
+      document.body.textContent = "";
+      var box = el("div", "finished");
+      box.appendChild(el("h1", null, S.savedTitle));
+      box.appendChild(el("p", null, fmt(S.saved, { review: state.review, hide: c.hide, keep: c.keep, total: c.total })));
+      document.body.appendChild(box);
+    }, function () { $("done").disabled = false; });
+  }
+
+  function init(data) {
+    state = data;
+    S = STR[data.lang] || STR.ru;
+    document.documentElement.lang = data.lang;
+    document.title = S.title + " - anon";
+    $("title").textContent = S.title;
+    $("filter").placeholder = S.filter;
+    $("done").textContent = S.done;
+    $("hint").innerHTML = S.hint;
+    $("add-text").placeholder = S.addPlaceholder;
+    $("add-btn").textContent = S.add;
+    var sel = $("add-kind");
+    data.add_kinds.forEach(function (k) {
+      var o = el("option", null, S.kinds[k] || k);
+      o.value = k;
+      sel.appendChild(o);
+    });
+    render();
+  }
+
+  $("filter").addEventListener("input", applyFilter);
+  $("done").addEventListener("click", finish);
+  $("add").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var input = $("add-text"), text = input.value.trim();
+    if (!text) return;
+    api("POST", "/api/add", { text: text, kind: $("add-kind").value }).then(function (r) {
+      state.items[r.item.id] = r.item;
+      input.value = "";
+      cur = r.item.id;
+      render();
+      setCur(rows[cur]);
+    }, function () {});
+  });
+  document.addEventListener("keydown", onKey);
+  api("GET", "/api/items").then(init, function () {});
+})();
+</script>
+</body>
+</html>
