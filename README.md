@@ -2,7 +2,7 @@
 
 [Русская версия](README.ru.md)
 
-An open tool from [an AI agents lab](https://ai-lab-agents.com). We built it for our own research and wrote it up as a case: how the first version met real interviews and what had to change is told in "How it was made".
+An open tool from [AI Lab](https://ai-lab-agents.com), a lab on using AI agents in business. We built it for our own research and wrote it up as a case: how the first version met real interviews and what had to change is told in "How it was made".
 
 `anon` hides personal data in interview transcripts and tables before you send them to a cloud LLM, then puts the real values back into the model's answer. Everything that touches the original data runs on your machine, without network access.
 
